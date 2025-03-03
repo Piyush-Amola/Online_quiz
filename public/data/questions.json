@@ -1,0 +1,3800 @@
+{
+  "subjects": [
+    {
+      "name": "Python",
+      "image": "/images/python.png",
+      "questions": [
+        {
+          "question": "What will be the output of the following Python code?\n print(type(5 / 2))",
+          "options": [
+            "<class 'int'>",
+            "<class 'float'>",
+            "<class 'str'>",
+            "<class 'complex'>"
+          ],
+          "answer": "<class 'float'>"
+        },
+        {
+          "question": "Which of the following is not a keyword in Python?",
+          "options": ["assert", "try", "finally", "none"],
+          "answer": "none"
+        },
+        {
+          "question": "What is the correct way to create a list in Python?",
+          "options": [
+            "list = [1, 2, 3]",
+            "list = (1, 2, 3)",
+            "list = {1, 2, 3}",
+            "list = <1, 2, 3>"
+          ],
+          "answer": "list = [1, 2, 3]"
+        },
+        {
+          "question": "How do you declare a function in Python?",
+          "options": [
+            "def functionName():",
+            "function functionName():",
+            "def function Name():",
+            "declare functionName()"
+          ],
+          "answer": "def functionName():"
+        },
+        {
+          "question": "What is the output of print(3 * 1 ** 3) in Python?",
+          "options": ["3", "1", "9", "27"],
+          "answer": "1"
+        },
+        {
+          "question": "Which of the following is used to define a comment in Python?",
+          "options": ["//", "/* */", "#", "<!-- -->"],
+          "answer": "#"
+        },
+        {
+          "question": "What is the output of the following code?\nx = \"Hello\"\nprint(x[1:4])",
+          "options": ["Hel", "ell", "llo", "Hello"],
+          "answer": "ell"
+        },
+        {
+          "question": "Which of the following methods is used to add an element to a set in Python?",
+          "options": ["add()", "append()", "insert()", "push()"],
+          "answer": "add()"
+        },
+        {
+          "question": "Which of the following will raise an error?",
+          "options": ["5 / 2", "5 // 2", "5 % 2", "5 ** 2"],
+          "answer": "None, all of them are valid operations."
+        },
+        {
+          "question": "What is the result of bool('')?",
+          "options": ["True", "False", "None", "Zero"],
+          "answer": "False"
+        },
+        {
+          "question": "What does len() function return for a string in Python?",
+          "options": [
+            "Number of words",
+            "Number of characters",
+            "Number of spaces",
+            "Index of the last character"
+          ],
+          "answer": "Number of characters"
+        },
+        {
+          "question": "Which of the following is used to handle exceptions in Python?",
+          "options": ["try/except", "throw/catch", "try/finally", "do/catch"],
+          "answer": "try/except"
+        },
+        {
+          "question": "What will be the output of the following Python code?\nprint(type({}))",
+          "options": [
+            "<class 'dict'>",
+            "<class 'set'>",
+            "<class 'tuple'>",
+            "<class 'list'>"
+          ],
+          "answer": "<class 'dict'>"
+        },
+        {
+          "question": "How do you check if a key exists in a dictionary?",
+          "options": [
+            "key in dict",
+            "key.exists()",
+            "dict.contains(key)",
+            "dict.has(key)"
+          ],
+          "answer": "key in dict"
+        },
+        {
+          "question": "Which of the following will create a tuple in Python?",
+          "options": [
+            "tuple = (1, 2, 3)",
+            "tuple = [1, 2, 3]",
+            "tuple = {1, 2, 3}",
+            "tuple = 1, 2, 3"
+          ],
+          "answer": "tuple = (1, 2, 3)"
+        },
+        {
+          "question": "What will the following code print?\nx = \"Python\"\nprint(x[::2])",
+          "options": ["Pto", "Pyn", "Pht", "Python"],
+          "answer": "Pto"
+        },
+        {
+          "question": "Which operator is used to concatenate two strings in Python?",
+          "options": ["+", "&", "*", "."],
+          "answer": "+"
+        },
+        {
+          "question": "What is the correct way to declare a global variable inside a function?",
+          "options": ["global x", "local x", "declare x", "var x"],
+          "answer": "global x"
+        },
+        {
+          "question": "What is the output of print(10 == 10)?",
+          "options": ["True", "False", "None", "Error"],
+          "answer": "True"
+        },
+        {
+          "question": "Which of the following is not a mutable object in Python?",
+          "options": ["List", "Dictionary", "Set", "String"],
+          "answer": "String"
+        },
+        {
+          "question": "What will be the output of this code?\nx = [1, 2, 3]\nx += [4, 5]\nprint(x)",
+          "options": [
+            "[1, 2, 3, 4, 5]",
+            "[1, 2, 3]",
+            "[4, 5]",
+            "[5, 4, 3, 2, 1]"
+          ],
+          "answer": "[1, 2, 3, 4, 5]"
+        },
+        {
+          "question": "Which of the following is used to create an empty set in Python?",
+          "options": ["set = []", "set = {}", "set = set()", "set = ()"],
+          "answer": "set = set()"
+        },
+        {
+          "question": "What does the following code do?\nx = [1, 2, 3, 4, 5]\nx.remove(3)\nprint(x)",
+          "options": [
+            "Removes element at index 3",
+            "Removes element with value 3",
+            "Removes the first element",
+            "Removes the last element"
+          ],
+          "answer": "Removes element with value 3"
+        },
+        {
+          "question": "Which method is used to remove the last item from a list?",
+          "options": ["pop()", "delete()", "remove()", "erase()"],
+          "answer": "pop()"
+        },
+        {
+          "question": "What is the output of len([1, 2, 3])?",
+          "options": ["3", "2", "4", "None"],
+          "answer": "3"
+        },
+        {
+          "question": "What will this code output?\nx = \"Python\"\nx += \" Rocks\"\nprint(x)",
+          "options": ["Python Rocks", "PythonRocks", "Python", "PythonRocks"],
+          "answer": "Python Rocks"
+        },
+        {
+          "question": "What is the type of the variable x after this assignment?\nx = (1, 2, 3)",
+          "options": ["list", "tuple", "set", "dict"],
+          "answer": "tuple"
+        },
+        {
+          "question": "Which Python function is used to convert a string to lowercase?",
+          "options": ["upper()", "lower()", "capitalize()", "casefold()"],
+          "answer": "lower()"
+        },
+        {
+          "question": "What does the enumerate() function do?",
+          "options": [
+            "Iterates over a sequence and provides a count of iterations",
+            "Creates a dictionary",
+            "Counts the length of a sequence",
+            "None of the above"
+          ],
+          "answer": "Iterates over a sequence and provides a count of iterations"
+        },
+        {
+          "question": "What will this code print?\nx = 10\ny = 5\nprint(x // y)",
+          "options": ["2", "5", "2.0", "Error"],
+          "answer": "2"
+        }
+      ]
+    },
+    {
+      "name": "Java",
+      "image": "/images/java.png",
+      "questions": [
+        {
+          "question": "Which of the following is the correct way to declare a variable in Java?",
+          "options": ["int x;", "x int;", "int x = 10;", "int = 10 x;"],
+          "answer": "int x;"
+        },
+        {
+          "question": "Which of these is used to define a method in Java?",
+          "options": ["method", "func", "def", "void"],
+          "answer": "void"
+        },
+        {
+          "question": "What is the default value of a boolean variable in Java?",
+          "options": ["true", "false", "0", "null"],
+          "answer": "false"
+        },
+        {
+          "question": "Which of the following is the main entry point for a Java program?",
+          "options": ["start()", "main()", "run()", "execute()"],
+          "answer": "main()"
+        },
+        {
+          "question": "Which keyword is used to create a new object in Java?",
+          "options": ["create", "new", "object", "make"],
+          "answer": "new"
+        },
+        {
+          "question": "What is the size of an int in Java?",
+          "options": ["16 bits", "32 bits", "64 bits", "8 bits"],
+          "answer": "32 bits"
+        },
+        {
+          "question": "Which of the following is not a valid access modifier in Java?",
+          "options": ["private", "protected", "public", "secret"],
+          "answer": "secret"
+        },
+        {
+          "question": "What does the ‘static’ keyword mean in Java?",
+          "options": [
+            "It indicates a method that is called without an object.",
+            "It indicates that the variable is final.",
+            "It defines a method that is inherited.",
+            "It makes a method virtual."
+          ],
+          "answer": "It indicates a method that is called without an object."
+        },
+        {
+          "question": "Which method is used to start a thread in Java?",
+          "options": ["start()", "run()", "execute()", "begin()"],
+          "answer": "start()"
+        },
+        {
+          "question": "Which of the following is a primitive data type in Java?",
+          "options": ["String", "Integer", "boolean", "Object"],
+          "answer": "boolean"
+        },
+        {
+          "question": "Which of the following is the correct way to declare a constant in Java?",
+          "options": [
+            "const int x = 10;",
+            "final int x = 10;",
+            "constant int x = 10;",
+            "int final x = 10;"
+          ],
+          "answer": "final int x = 10;"
+        },
+        {
+          "question": "What will be the result of the following code?\nint x = 5;\nSystem.out.println(++x);",
+          "options": ["4", "5", "6", "Compilation error"],
+          "answer": "6"
+        },
+        {
+          "question": "Which of the following statements is true about arrays in Java?",
+          "options": [
+            "Arrays are dynamically sized.",
+            "Arrays are objects.",
+            "Arrays cannot store primitive types.",
+            "Arrays have no fixed size."
+          ],
+          "answer": "Arrays are objects."
+        },
+        {
+          "question": "Which method is used to compare two strings in Java?",
+          "options": ["equals()", "compare()", "compareTo()", "== operator"],
+          "answer": "equals()"
+        },
+        {
+          "question": "Which of the following statements is true about constructors in Java?",
+          "options": [
+            "A constructor must have a return type.",
+            "A constructor is called when an object is created.",
+            "A constructor cannot be overloaded.",
+            "A constructor cannot be private."
+          ],
+          "answer": "A constructor is called when an object is created."
+        },
+        {
+          "question": "What will be the output of the following code?\nString str = \"Hello, World!\";\nSystem.out.println(str.substring(7, 12));",
+          "options": ["World", "Hello", "World!", "Error"],
+          "answer": "World"
+        },
+        {
+          "question": "Which of the following is the correct way to handle exceptions in Java?",
+          "options": [
+            "try/catch",
+            "throw/catch",
+            "try/finally",
+            "error/handle"
+          ],
+          "answer": "try/catch"
+        },
+        {
+          "question": "Which of the following classes can be used to read data from a file in Java?",
+          "options": [
+            "FileReader",
+            "BufferedReader",
+            "FileInputStream",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What will be the output of the following code?\nint x = 10;\nSystem.out.println(x++);",
+          "options": ["10", "11", "9", "Error"],
+          "answer": "10"
+        },
+        {
+          "question": "Which of the following is true about the StringBuilder class in Java?",
+          "options": [
+            "It is immutable.",
+            "It is mutable.",
+            "It does not provide any methods for string manipulation.",
+            "It is faster than String for concatenation."
+          ],
+          "answer": "It is mutable."
+        },
+        {
+          "question": "Which of the following is used to import a package in Java?",
+          "options": [
+            "import package;",
+            "import package.*;",
+            "include package;",
+            "import * package;"
+          ],
+          "answer": "import package.*;"
+        },
+        {
+          "question": "Which keyword is used to inherit a class in Java?",
+          "options": ["extends", "inherits", "implements", "super"],
+          "answer": "extends"
+        },
+        {
+          "question": "Which of the following is a correct way to declare an array in Java?",
+          "options": ["int[] arr;", "int arr[];", "arr int[];", "Both a and b"],
+          "answer": "Both a and b"
+        },
+        {
+          "question": "Which collection class in Java is a part of the framework to store elements in key-value pairs?",
+          "options": ["List", "Map", "Set", "Queue"],
+          "answer": "Map"
+        },
+        {
+          "question": "Which of the following is true about the ‘super’ keyword in Java?",
+          "options": [
+            "It refers to the superclass of the current class.",
+            "It refers to the current class.",
+            "It refers to the subclass of the current class.",
+            "It is used to define private methods."
+          ],
+          "answer": "It refers to the superclass of the current class."
+        }
+      ]
+    },
+    {
+      "name": "C#",
+      "image": "/images/c_sharp.png",
+      "questions": [
+        {
+          "question": "Which of the following is used to declare a variable in C#?",
+          "options": ["a) var x;", "b) dim x;", "c) let x;", "d) int x;"],
+          "answer": "a) var x;"
+        },
+        {
+          "question": "What is the default value of a boolean variable in C#?",
+          "options": ["a) true", "b) false", "c) 1", "d) 0"],
+          "answer": "b) false"
+        },
+        {
+          "question": "Which keyword is used to create a class in C#?",
+          "options": ["a) class", "b) struct", "c) object", "d) instance"],
+          "answer": "a) class"
+        },
+        {
+          "question": "Which of the following is used to declare a constant in C#?",
+          "options": ["a) const", "b) static", "c) final", "d) constant"],
+          "answer": "a) const"
+        },
+        {
+          "question": "Which of the following data types is a value type in C#?",
+          "options": ["a) string", "b) object", "c) int", "d) class"],
+          "answer": "c) int"
+        },
+        {
+          "question": "Which of the following is the base class for all exceptions in C#?",
+          "options": [
+            "a) System.Exception",
+            "b) System.Error",
+            "c) System.Fault",
+            "d) System.InvalidOperation"
+          ],
+          "answer": "a) System.Exception"
+        },
+        {
+          "question": "Which of the following is the correct syntax to inherit a class in C#?",
+          "options": [
+            "a) class Derived : Base",
+            "b) class Derived extends Base",
+            "c) class Derived inherits Base",
+            "d) class Derived -> Base"
+          ],
+          "answer": "a) class Derived : Base"
+        },
+        {
+          "question": "What does the 'static' keyword mean in C#?",
+          "options": [
+            "a) It defines a class that cannot be instantiated.",
+            "b) It defines a method that belongs to the class, not an object.",
+            "c) It defines a class that can only have one instance.",
+            "d) It defines a method that is only accessible in the same file."
+          ],
+          "answer": "b) It defines a method that belongs to the class, not an object."
+        },
+        {
+          "question": "Which of the following is a correct way to create a list in C#?",
+          "options": [
+            "a) List<int> numbers = new List<int>();",
+            "b) int[] numbers = new List<int>();",
+            "c) List numbers = new List<int>();",
+            "d) List<int> numbers = new int[];"
+          ],
+          "answer": "a) List<int> numbers = new List<int>();"
+        },
+        {
+          "question": "Which of the following is the correct syntax to handle exceptions in C#?",
+          "options": [
+            "a) try/catch",
+            "b) catch/throw",
+            "c) catch/exception",
+            "d) try/finally"
+          ],
+          "answer": "a) try/catch"
+        },
+        {
+          "question": "Which method is used to get the length of an array in C#?",
+          "options": [
+            "a) GetLength()",
+            "b) Length()",
+            "c) Count()",
+            "d) Size()"
+          ],
+          "answer": "b) Length()"
+        },
+        {
+          "question": "What is the default value of an integer variable in C#?",
+          "options": ["a) 0", "b) null", "c) 1", "d) undefined"],
+          "answer": "a) 0"
+        },
+        {
+          "question": "Which of the following is the correct way to define a function in C#?",
+          "options": [
+            "a) void FunctionName() {}",
+            "b) function FunctionName() {}",
+            "c) def FunctionName() {}",
+            "d) FunctionName() {}"
+          ],
+          "answer": "a) void FunctionName() {}"
+        },
+        {
+          "question": "Which of the following is the correct operator to access members of a class in C#?",
+          "options": ["a) .", "b) ->", "c) ::", "d) &"],
+          "answer": "a) ."
+        },
+        {
+          "question": "Which of the following is a feature of C#?",
+          "options": [
+            "a) Object-Oriented",
+            "b) Functional Programming",
+            "c) Concurrent Programming",
+            "d) All of the above"
+          ],
+          "answer": "d) All of the above"
+        },
+        {
+          "question": "Which of the following access modifiers is the most restrictive in C#?",
+          "options": ["a) public", "b) private", "c) protected", "d) internal"],
+          "answer": "b) private"
+        },
+        {
+          "question": "Which of the following is the correct syntax for declaring an array in C#?",
+          "options": [
+            "a) int[] arr = {1, 2, 3};",
+            "b) int arr[] = {1, 2, 3};",
+            "c) arr[] = {1, 2, 3};",
+            "d) int arr[] = new int{1, 2, 3};"
+          ],
+          "answer": "a) int[] arr = {1, 2, 3};"
+        },
+        {
+          "question": "What is the purpose of the 'using' keyword in C#?",
+          "options": [
+            "a) To define a namespace",
+            "b) To create an alias for a namespace",
+            "c) To declare a variable",
+            "d) To ensure that IDisposable objects are disposed of"
+          ],
+          "answer": "d) To ensure that IDisposable objects are disposed of"
+        },
+        {
+          "question": "Which of the following is the correct way to declare a method with parameters in C#?",
+          "options": [
+            "a) void MethodName(int a, int b) {}",
+            "b) MethodName(int a, int b) void {}",
+            "c) void MethodName(int a, b int) {}",
+            "d) void MethodName(a, b int) {}"
+          ],
+          "answer": "a) void MethodName(int a, int b) {}"
+        },
+        {
+          "question": "Which of the following is used to define an abstract class in C#?",
+          "options": [
+            "a) abstract class ClassName {}",
+            "b) class ClassName abstract {}",
+            "c) class abstract ClassName {}",
+            "d) class ClassName {abstract;}"
+          ],
+          "answer": "a) abstract class ClassName {}"
+        },
+        {
+          "question": "Which of the following is a valid C# collection type?",
+          "options": [
+            "a) List",
+            "b) Dictionary",
+            "c) Queue",
+            "d) All of the above"
+          ],
+          "answer": "d) All of the above"
+        },
+        {
+          "question": "Which keyword is used to prevent inheritance in C#?",
+          "options": ["a) sealed", "b) final", "c) static", "d) constant"],
+          "answer": "a) sealed"
+        },
+        {
+          "question": "What is the result of the following expression: 5 + '5' in C#?",
+          "options": ["a) 55", "b) 10", "c) Error", "d) '55'"],
+          "answer": "c) Error"
+        },
+        {
+          "question": "Which of the following is the correct way to define a property in C#?",
+          "options": [
+            "a) public int Property { get; set; }",
+            "b) int Property { set; get; }",
+            "c) public set int Property;",
+            "d) public int Property { get() set(); }"
+          ],
+          "answer": "a) public int Property { get; set; }"
+        },
+        {
+          "question": "Which of the following is used to convert an object to a string in C#?",
+          "options": [
+            "a) toString()",
+            "b) Convert.ToString()",
+            "c) String.ToObject()",
+            "d) String.Convert()"
+          ],
+          "answer": "b) Convert.ToString()"
+        },
+        {
+          "question": "Which of the following is the correct syntax for creating a delegate in C#?",
+          "options": [
+            "a) delegate void MyDelegate();",
+            "b) void delegate MyDelegate();",
+            "c) MyDelegate delegate();",
+            "d) delegate MyDelegate() void;"
+          ],
+          "answer": "a) delegate void MyDelegate();"
+        },
+        {
+          "question": "What is the purpose of the 'params' keyword in C#?",
+          "options": [
+            "a) To define a method that accepts a variable number of arguments",
+            "b) To define an array",
+            "c) To define default parameters",
+            "d) To define parameters in a constructor"
+          ],
+          "answer": "a) To define a method that accepts a variable number of arguments"
+        },
+        {
+          "question": "Which of the following methods is used to convert a string to an integer in C#?",
+          "options": [
+            "a) Convert.ToInt()",
+            "b) Int.Parse()",
+            "c) ParseInt()",
+            "d) String.ToInt()"
+          ],
+          "answer": "b) Int.Parse()"
+        },
+        {
+          "question": "Which of the following types is the base type for all types in C#?",
+          "options": ["a) object", "b) type", "c) base", "d) void"],
+          "answer": "a) object"
+        }
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "image": "/images/javascript.png",
+      "questions": [
+        {
+          "question": "Which of the following is the correct syntax to declare a variable in JavaScript?",
+          "options": [
+            "a) var x;",
+            "b) let x;",
+            "c) const x;",
+            "d) All of the above"
+          ],
+          "answer": "d) All of the above"
+        },
+        {
+          "question": "Which of the following is the correct way to declare a constant in JavaScript?",
+          "options": [
+            "a) constant x = 10;",
+            "b) var x = 10;",
+            "c) const x = 10;",
+            "d) let x = 10;"
+          ],
+          "answer": "c) const x = 10;"
+        },
+        {
+          "question": "Which operator is used to assign a value to a variable in JavaScript?",
+          "options": ["a) =", "b) :=", "c) ==;", "d) ==="],
+          "answer": "a) ="
+        },
+        {
+          "question": "What is the result of the following expression: '5' + 3 in JavaScript?",
+          "options": ["a) 53", "b) 8", "c) 5", "d) Error"],
+          "answer": "a) 53"
+        },
+        {
+          "question": "Which of the following methods is used to parse a string into an integer in JavaScript?",
+          "options": [
+            "a) parseInt()",
+            "b) Integer.parse()",
+            "c) toInt()",
+            "d) parse()"
+          ],
+          "answer": "a) parseInt()"
+        },
+        {
+          "question": "Which of the following is the correct way to create a function in JavaScript?",
+          "options": [
+            "a) function myFunction() {}",
+            "b) create function myFunction() {}",
+            "c) def myFunction() {}",
+            "d) function: myFunction() {}"
+          ],
+          "answer": "a) function myFunction() {}"
+        },
+        {
+          "question": "What is the default value of an uninitialized variable in JavaScript?",
+          "options": ["a) undefined", "b) null", "c) 0", "d) NaN"],
+          "answer": "a) undefined"
+        },
+        {
+          "question": "Which of the following is used to define an object in JavaScript?",
+          "options": [
+            "a) object = { }",
+            "b) var object = {};",
+            "c) object() = {};",
+            "d) var object {}"
+          ],
+          "answer": "b) var object = {};"
+        },
+        {
+          "question": "Which of the following is the correct way to check for equality in JavaScript?",
+          "options": ["a) =", "b) == ", "c) ===", "d) equals()"],
+          "answer": "c) ==="
+        },
+        {
+          "question": "What does the 'this' keyword refer to in JavaScript?",
+          "options": [
+            "a) The current function",
+            "b) The parent object",
+            "c) The global object",
+            "d) The object that is calling the method"
+          ],
+          "answer": "d) The object that is calling the method"
+        },
+        {
+          "question": "What will the following code output? console.log(2 + '2');",
+          "options": ["a) 22", "b) 4", "c) '22'", "d) Error"],
+          "answer": "a) 22"
+        },
+        {
+          "question": "Which of the following is used to define a loop in JavaScript?",
+          "options": [
+            "a) for loop",
+            "b) while loop",
+            "c) do-while loop",
+            "d) All of the above"
+          ],
+          "answer": "d) All of the above"
+        },
+        {
+          "question": "How can you add a comment in JavaScript?",
+          "options": [
+            "a) // comment",
+            "b) /* comment */",
+            "c) # comment",
+            "d) a and b"
+          ],
+          "answer": "d) a and b"
+        },
+        {
+          "question": "What will the following code output? console.log([1] == true);",
+          "options": ["a) true", "b) false", "c) Error", "d) undefined"],
+          "answer": "a) true"
+        },
+        {
+          "question": "Which method is used to convert a string to a number in JavaScript?",
+          "options": [
+            "a) Number()",
+            "b) toNumber()",
+            "c) parse()",
+            "d) parseFloat()"
+          ],
+          "answer": "a) Number()"
+        },
+        {
+          "question": "Which of the following is used to stop a loop in JavaScript?",
+          "options": ["a) break", "b) stop", "c) exit", "d) return"],
+          "answer": "a) break"
+        },
+        {
+          "question": "Which of the following statements is true about JavaScript arrays?",
+          "options": [
+            "a) Arrays can store elements of different data types",
+            "b) Arrays have a fixed size",
+            "c) Arrays are immutable",
+            "d) Arrays can only store numbers"
+          ],
+          "answer": "a) Arrays can store elements of different data types"
+        },
+        {
+          "question": "Which of the following is a valid way to declare an array in JavaScript?",
+          "options": [
+            "a) var arr = [1, 2, 3];",
+            "b) var arr = (1, 2, 3);",
+            "c) arr = {1, 2, 3};",
+            "d) var arr = {1, 2, 3}"
+          ],
+          "answer": "a) var arr = [1, 2, 3];"
+        },
+        {
+          "question": "Which of the following is the correct way to create a promise in JavaScript?",
+          "options": [
+            "a) new Promise(function(resolve, reject) {})",
+            "b) new Promise(resolve, reject) {}",
+            "c) new promise(function(resolve, reject) {})",
+            "d) new Promise({resolve, reject})"
+          ],
+          "answer": "a) new Promise(function(resolve, reject) {})"
+        },
+        {
+          "question": "How do you call a function in JavaScript?",
+          "options": [
+            "a) functionName();",
+            "b) call functionName();",
+            "c) call functionName",
+            "d) function functionName();"
+          ],
+          "answer": "a) functionName();"
+        },
+        {
+          "question": "Which of the following is a valid JavaScript data type?",
+          "options": [
+            "a) String",
+            "b) Boolean",
+            "c) Number",
+            "d) All of the above"
+          ],
+          "answer": "d) All of the above"
+        },
+        {
+          "question": "Which of the following methods is used to find the length of an array in JavaScript?",
+          "options": [
+            "a) length()",
+            "b) size()",
+            "c) arrayLength()",
+            "d) length"
+          ],
+          "answer": "d) length"
+        },
+        {
+          "question": "Which of the following is true about JavaScript objects?",
+          "options": [
+            "a) Objects can have properties and methods",
+            "b) Objects can be created using literal notation",
+            "c) Objects are used to store key-value pairs",
+            "d) All of the above"
+          ],
+          "answer": "d) All of the above"
+        },
+        {
+          "question": "Which method is used to add a new element at the end of an array in JavaScript?",
+          "options": ["a) push()", "b) pop()", "c) shift()", "d) unshift()"],
+          "answer": "a) push()"
+        },
+        {
+          "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+          "options": [
+            "a) To check the data type of a variable",
+            "b) To convert a variable to a specific type",
+            "c) To declare a new data type",
+            "d) None of the above"
+          ],
+          "answer": "a) To check the data type of a variable"
+        },
+        {
+          "question": "Which of the following methods is used to remove the last element from an array in JavaScript?",
+          "options": ["a) pop()", "b) shift()", "c) slice()", "d) splice()"],
+          "answer": "a) pop()"
+        },
+        {
+          "question": "Which method is used to combine two or more arrays in JavaScript?",
+          "options": ["a) concat()", "b) append()", "c) merge()", "d) join()"],
+          "answer": "a) concat()"
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "image": "/images/c.png",
+      "questions": [
+        {
+          "question": "Which of the following is the correct syntax for declaring a pointer in C?",
+          "options": [
+            "a) int *ptr;",
+            "b) int ptr*;",
+            "c) *int ptr;",
+            "d) pointer int* ptr;"
+          ],
+          "answer": "a) int *ptr;"
+        },
+        {
+          "question": "What is the size of an integer in C?",
+          "options": [
+            "a) 2 bytes",
+            "b) 4 bytes",
+            "c) 8 bytes",
+            "d) Depends on the system"
+          ],
+          "answer": "d) Depends on the system"
+        },
+        {
+          "question": "Which of the following is the correct way to print a string in C?",
+          "options": [
+            "a) printf('Hello');",
+            "b) print('Hello');",
+            "c) printf(\"Hello\");",
+            "d) echo(\"Hello\");"
+          ],
+          "answer": "c) printf(\"Hello\");"
+        },
+        {
+          "question": "Which of the following is used to comment a block of code in C?",
+          "options": [
+            "a) // comment",
+            "b) /* comment */",
+            "c) # comment",
+            "d) ' comment"
+          ],
+          "answer": "b) /* comment */"
+        },
+        {
+          "question": "What will the following code print? printf(\"%d\", 5 / 2);",
+          "options": ["a) 2", "b) 2.5", "c) 5", "d) Error"],
+          "answer": "a) 2"
+        },
+        {
+          "question": "Which function is used to get the length of a string in C?",
+          "options": [
+            "a) stringLength()",
+            "b) strlen()",
+            "c) strlength()",
+            "d) length()"
+          ],
+          "answer": "b) strlen()"
+        },
+        {
+          "question": "Which of the following is a logical operator in C?",
+          "options": ["a) &&", "b) ||", "c) !", "d) All of the above"],
+          "answer": "d) All of the above"
+        },
+        {
+          "question": "Which function in C is used to allocate memory dynamically?",
+          "options": ["a) malloc()", "b) free()", "c) alloc()", "d) memory()"],
+          "answer": "a) malloc()"
+        },
+        {
+          "question": "What is the result of the following expression in C: 10 % 3?",
+          "options": ["a) 1", "b) 3", "c) 10", "d) 0"],
+          "answer": "a) 1"
+        },
+        {
+          "question": "Which of the following is used to terminate a loop in C?",
+          "options": ["a) exit", "b) break", "c) return", "d) stop"],
+          "answer": "b) break"
+        },
+        {
+          "question": "What is the value of the expression 3 * 2 + 1 in C?",
+          "options": ["a) 7", "b) 9", "c) 6", "d) 5"],
+          "answer": "a) 7"
+        },
+        {
+          "question": "Which of the following operators is used for bitwise AND in C?",
+          "options": ["a) &", "b) &&", "c) |", "d) ||"],
+          "answer": "a) &"
+        },
+        {
+          "question": "What is the purpose of the 'continue' statement in C?",
+          "options": [
+            "a) Exit the loop",
+            "b) Skip the current iteration and proceed with the next one",
+            "c) Jump to the next statement",
+            "d) None of the above"
+          ],
+          "answer": "b) Skip the current iteration and proceed with the next one"
+        },
+        {
+          "question": "Which of the following is the correct syntax for a while loop in C?",
+          "options": [
+            "a) while(condition) { }",
+            "b) loop(condition) { }",
+            "c) for(condition) { }",
+            "d) repeat(condition) { }"
+          ],
+          "answer": "a) while(condition) { }"
+        },
+        {
+          "question": "Which of the following data types can hold a decimal number in C?",
+          "options": ["a) int", "b) float", "c) char", "d) string"],
+          "answer": "b) float"
+        },
+        {
+          "question": "Which function is used to read a character from the standard input in C?",
+          "options": ["a) scanf()", "b) getch()", "c) getchar()", "d) read()"],
+          "answer": "c) getchar()"
+        },
+        {
+          "question": "Which of the following is not a valid data type in C?",
+          "options": ["a) char", "b) int", "c) bool", "d) float"],
+          "answer": "c) bool"
+        },
+        {
+          "question": "Which of the following is used to declare an array in C?",
+          "options": [
+            "a) int[] arr;",
+            "b) array int arr;",
+            "c) int arr[10];",
+            "d) int arr;"
+          ],
+          "answer": "c) int arr[10];"
+        },
+        {
+          "question": "Which of the following is a valid pointer declaration in C?",
+          "options": [
+            "a) int* ptr;",
+            "b) ptr int*;",
+            "c) int ptr*;",
+            "d) *int ptr;"
+          ],
+          "answer": "a) int* ptr;"
+        },
+        {
+          "question": "Which of the following is used to free dynamically allocated memory in C?",
+          "options": [
+            "a) free()",
+            "b) delete",
+            "c) remove()",
+            "d) deallocate()"
+          ],
+          "answer": "a) free()"
+        },
+        {
+          "question": "Which of the following is a correct declaration of a structure in C?",
+          "options": [
+            "a) struct { int x; };",
+            "b) struct myStruct { int x; };",
+            "c) structure myStruct { int x; };",
+            "d) struct myStruct { x int; };"
+          ],
+          "answer": "b) struct myStruct { int x; };"
+        },
+        {
+          "question": "Which of the following is used to declare a function in C?",
+          "options": [
+            "a) function funcName();",
+            "b) void funcName();",
+            "c) declare funcName();",
+            "d) funcName() -> void;"
+          ],
+          "answer": "b) void funcName();"
+        },
+        {
+          "question": "What does the sizeof() operator return in C?",
+          "options": [
+            "a) The size of a variable",
+            "b) The size of a pointer",
+            "c) The size of the type",
+            "d) The size of a function"
+          ],
+          "answer": "a) The size of a variable"
+        },
+        {
+          "question": "Which of the following is not a loop in C?",
+          "options": ["a) while", "b) for", "c) do-while", "d) repeat"],
+          "answer": "d) repeat"
+        },
+        {
+          "question": "What will the following code output? printf(\"%d\", 5 + 3 * 2);",
+          "options": ["a) 11", "b) 16", "c) 13", "d) 8"],
+          "answer": "a) 11"
+        },
+        {
+          "question": "Which of the following is used to access a member of a structure in C?",
+          "options": ["a) .", "b) ->", "c) *", "d) &"],
+          "answer": "a) ."
+        },
+        {
+          "question": "What is the purpose of the 'return' statement in C?",
+          "options": [
+            "a) To terminate a function and return a value",
+            "b) To terminate a loop",
+            "c) To skip a function",
+            "d) To print a value"
+          ],
+          "answer": "a) To terminate a function and return a value"
+        },
+        {
+          "question": "Which of the following is a valid variable name in C?",
+          "options": ["a) 1variable", "b) _variable", "c) int", "d) variable#"],
+          "answer": "b) _variable"
+        },
+        {
+          "question": "What is the default value of an uninitialized static variable in C?",
+          "options": ["a) 0", "b) NULL", "c) Undefined", "d) Garbage value"],
+          "answer": "a) 0"
+        },
+        {
+          "question": "Which of the following is used for dynamic memory allocation for an array in C?",
+          "options": [
+            "a) malloc()",
+            "b) calloc()",
+            "c) realloc()",
+            "d) All of the above"
+          ],
+          "answer": "d) All of the above"
+        }
+      ]
+    },
+    {
+      "name": " SQL",
+      "image": "/images/sql.png",
+      "questions": [
+        {
+          "question": "Which SQL statement is used to extract data from a database?",
+          "options": ["a) GET", "b) SELECT", "c) EXTRACT", "d) PULL"],
+          "answer": "b) SELECT"
+        },
+        {
+          "question": "Which clause is used to filter records in SQL?",
+          "options": ["a) ORDER BY", "b) WHERE", "c) HAVING", "d) GROUP BY"],
+          "answer": "b) WHERE"
+        },
+        {
+          "question": "Which SQL keyword is used to sort the result set?",
+          "options": ["a) SORT BY", "b) ORDER BY", "c) GROUP BY", "d) SORT"],
+          "answer": "b) ORDER BY"
+        },
+        {
+          "question": "Which of the following is used to combine the results of two or more SQL SELECT statements?",
+          "options": ["a) MERGE", "b) JOIN", "c) COMBINE", "d) UNION"],
+          "answer": "d) UNION"
+        },
+        {
+          "question": "What does the COUNT() function do in SQL?",
+          "options": [
+            "a) Returns the count of a column's values",
+            "b) Returns the count of rows in a table",
+            "c) Returns the total value of a column",
+            "d) Returns the first record of a table"
+          ],
+          "answer": "b) Returns the count of rows in a table"
+        },
+        {
+          "question": "Which SQL clause is used to group rows that have the same values?",
+          "options": ["a) ORDER BY", "b) GROUP BY", "c) HAVING", "d) WHERE"],
+          "answer": "b) GROUP BY"
+        },
+        {
+          "question": "Which SQL statement is used to delete a table from a database?",
+          "options": [
+            "a) REMOVE TABLE",
+            "b) DELETE TABLE",
+            "c) DROP TABLE",
+            "d) REMOVE"
+          ],
+          "answer": "c) DROP TABLE"
+        },
+        {
+          "question": "Which SQL function is used to return the maximum value from a column?",
+          "options": ["a) MAX()", "b) HIGH()", "c) UPPER()", "d) LARGE()"],
+          "answer": "a) MAX()"
+        },
+        {
+          "question": "Which SQL keyword is used to specify a condition that must be true for a record to be included in the result set?",
+          "options": ["a) WHEN", "b) IF", "c) WHERE", "d) HAVING"],
+          "answer": "c) WHERE"
+        },
+        {
+          "question": "Which of the following is the correct syntax to create a table in SQL?",
+          "options": [
+            "a) CREATE TABLE table_name (column1 datatype, column2 datatype);",
+            "b) CREATE table table_name (column1 datatype);",
+            "c) CREATE table_name (column1, column2);",
+            "d) MAKE TABLE table_name (column1 datatype);"
+          ],
+          "answer": "a) CREATE TABLE table_name (column1 datatype, column2 datatype);"
+        },
+        {
+          "question": "Which operator is used in SQL to search for a pattern in a column?",
+          "options": ["a) LIKE", "b) MATCH", "c) FIND", "d) IN"],
+          "answer": "a) LIKE"
+        },
+        {
+          "question": "Which SQL statement is used to update data in a table?",
+          "options": ["a) MODIFY", "b) UPDATE", "c) CHANGE", "d) SET"],
+          "answer": "b) UPDATE"
+        },
+        {
+          "question": "Which of the following SQL statements is used to add a column to an existing table?",
+          "options": [
+            "a) ADD COLUMN",
+            "b) ALTER TABLE",
+            "c) MODIFY COLUMN",
+            "d) CREATE COLUMN"
+          ],
+          "answer": "b) ALTER TABLE"
+        },
+        {
+          "question": "Which function is used to return the total sum of a numeric column in SQL?",
+          "options": ["a) SUM()", "b) TOTAL()", "c) ADD()", "d) COUNT()"],
+          "answer": "a) SUM()"
+        },
+        {
+          "question": "Which keyword is used to eliminate duplicate records in the result set?",
+          "options": [
+            "a) DISTINCT",
+            "b) UNIQUE",
+            "c) DISTINCTIVE",
+            "d) REMOVE"
+          ],
+          "answer": "a) DISTINCT"
+        },
+        {
+          "question": "Which of the following is used to join two tables in SQL based on a related column?",
+          "options": [
+            "a) JOIN",
+            "b) INNER JOIN",
+            "c) LEFT JOIN",
+            "d) All of the above"
+          ],
+          "answer": "d) All of the above"
+        },
+        {
+          "question": "What does the SQL keyword 'NULL' represent?",
+          "options": [
+            "a) Undefined value",
+            "b) Blank value",
+            "c) Zero value",
+            "d) A missing value"
+          ],
+          "answer": "d) A missing value"
+        },
+        {
+          "question": "Which of the following commands is used to remove all rows from a table without removing the table itself?",
+          "options": ["a) DELETE", "b) REMOVE", "c) TRUNCATE", "d) DROP"],
+          "answer": "c) TRUNCATE"
+        },
+        {
+          "question": "What will the following SQL statement do? SELECT * FROM employees WHERE salary > 50000;",
+          "options": [
+            "a) Select all employees with a salary greater than 50000",
+            "b) Select employees with a salary less than 50000",
+            "c) Select all employees",
+            "d) It will raise an error"
+          ],
+          "answer": "a) Select all employees with a salary greater than 50000"
+        },
+        {
+          "question": "Which SQL clause is used to filter groups in SQL?",
+          "options": ["a) WHERE", "b) HAVING", "c) GROUP BY", "d) LIMIT"],
+          "answer": "b) HAVING"
+        },
+        {
+          "question": "Which operator is used in SQL to check if a value is within a range?",
+          "options": ["a) IN", "b) BETWEEN", "c) LIKE", "d) IS"],
+          "answer": "b) BETWEEN"
+        },
+        {
+          "question": "What is the default sorting order for the ORDER BY clause in SQL?",
+          "options": [
+            "a) Ascending",
+            "b) Descending",
+            "c) Random",
+            "d) None of the above"
+          ],
+          "answer": "a) Ascending"
+        },
+        {
+          "question": "Which clause is used in SQL to limit the number of records returned?",
+          "options": ["a) LIMIT", "b) WHERE", "c) MAX", "d) LIMIT BY"],
+          "answer": "a) LIMIT"
+        },
+        {
+          "question": "What does the SQL statement 'SELECT DISTINCT column_name FROM table_name;' do?",
+          "options": [
+            "a) Select unique values from the specified column",
+            "b) Select all values from the specified column",
+            "c) Select records with NULL values",
+            "d) Select the last row in the specified column"
+          ],
+          "answer": "a) Select unique values from the specified column"
+        },
+        {
+          "question": "Which of the following is used to set a primary key constraint on a column in SQL?",
+          "options": [
+            "a) PRIMARY KEY",
+            "b) CONSTRAINT PRIMARY",
+            "c) UNIQUE",
+            "d) AUTO_INCREMENT"
+          ],
+          "answer": "a) PRIMARY KEY"
+        },
+        {
+          "question": "Which of the following is the correct syntax to create a foreign key in SQL?",
+          "options": [
+            "a) FOREIGN KEY (column_name) REFERENCES other_table (column_name);",
+            "b) FOREIGN KEY REFERENCES (other_table);",
+            "c) REFERENCES foreign_key (column_name);",
+            "d) FOREIGN KEY column_name;"
+          ],
+          "answer": "a) FOREIGN KEY (column_name) REFERENCES other_table (column_name);"
+        },
+        {
+          "question": "Which of the following is a valid SQL data type?",
+          "options": ["a) STRING", "b) CHAR", "c) TEXT", "d) Both b and c"],
+          "answer": "d) Both b and c"
+        },
+        {
+          "question": "Which SQL function is used to return the current date?",
+          "options": [
+            "a) GETDATE()",
+            "b) CURRENT_DATE()",
+            "c) NOW()",
+            "d) TODAY()"
+          ],
+          "answer": "c) NOW()"
+        }
+      ]
+    },
+    {
+      "name": "Golang",
+      "image": "/images/go.png",
+      "questions": [
+        {
+          "question": "Which of the following is the correct way to declare a variable in Go?",
+          "options": ["var x int", "let x int", "int x var", "var int x"],
+          "answer": "var x int"
+        },
+        {
+          "question": "What is the default value of a string in Go?",
+          "options": ["null", "empty string", "0", "undefined"],
+          "answer": "empty string"
+        },
+        {
+          "question": "Which of the following is used for concurrency in Go?",
+          "options": ["goroutines", "tasks", "promises", "threads"],
+          "answer": "goroutines"
+        },
+        {
+          "question": "What is the keyword used to create a new Goroutine in Go?",
+          "options": ["start", "go", "thread", "spawn"],
+          "answer": "go"
+        },
+        {
+          "question": "What does the Go keyword 'defer' do?",
+          "options": [
+            "Postpones the execution of a function until the surrounding function finishes",
+            "Cancels a function call",
+            "Defines a function",
+            "Creates a new Goroutine"
+          ],
+          "answer": "Postpones the execution of a function until the surrounding function finishes"
+        },
+        {
+          "question": "How do you import a package in Go?",
+          "options": [
+            "import package",
+            "use package",
+            "include package",
+            "import \"package\""
+          ],
+          "answer": "import \"package\""
+        },
+        {
+          "question": "Which statement is used to handle errors in Go?",
+          "options": ["error", "try-catch", "panic", "if err != nil"],
+          "answer": "if err != nil"
+        },
+        {
+          "question": "Which type in Go is used to represent a collection of key-value pairs?",
+          "options": ["map", "slice", "array", "list"],
+          "answer": "map"
+        },
+        {
+          "question": "Which of the following is not a Go data type?",
+          "options": ["int", "string", "float64", "boolean"],
+          "answer": "boolean"
+        },
+        {
+          "question": "What is the Go keyword for defining a function?",
+          "options": ["func", "function", "def", "define"],
+          "answer": "func"
+        },
+        {
+          "question": "Which of the following is the correct way to create a constant in Go?",
+          "options": [
+            "const x = 10",
+            "constant x = 10",
+            "let const x = 10",
+            "var const x = 10"
+          ],
+          "answer": "const x = 10"
+        },
+        {
+          "question": "What will the following code print: fmt.Println(1 + 2 * 3)?",
+          "options": ["5", "7", "9", "3"],
+          "answer": "7"
+        },
+        {
+          "question": "Which of the following is used to handle panics in Go?",
+          "options": ["catch", "recover", "panic", "exception"],
+          "answer": "recover"
+        },
+        {
+          "question": "What is the default value of an uninitialized boolean variable in Go?",
+          "options": ["true", "false", "0", "undefined"],
+          "answer": "false"
+        },
+        {
+          "question": "What is the return type of the built-in len() function in Go?",
+          "options": ["int", "string", "bool", "float64"],
+          "answer": "int"
+        },
+        {
+          "question": "Which of the following is not a valid way to declare a Go function?",
+          "options": [
+            "func myFunc() {}",
+            "func myFunc(int) {}",
+            "func myFunc(int x) {}",
+            "function myFunc() {}"
+          ],
+          "answer": "function myFunc() {}"
+        },
+        {
+          "question": "Which of the following is used to create a channel in Go?",
+          "options": [
+            "make(chan type)",
+            "channel type",
+            "create(chan type)",
+            "chan create(type)"
+          ],
+          "answer": "make(chan type)"
+        },
+        {
+          "question": "What does Go use to achieve encapsulation?",
+          "options": ["Packages", "Classes", "Modules", "Functions"],
+          "answer": "Packages"
+        },
+        {
+          "question": "What will happen if you try to access an array index that does not exist in Go?",
+          "options": [
+            "It will return nil",
+            "It will panic",
+            "It will return 0",
+            "It will return undefined"
+          ],
+          "answer": "It will panic"
+        },
+        {
+          "question": "What is the keyword for type assertion in Go?",
+          "options": ["type", "assert", "check", "interface"],
+          "answer": "type"
+        },
+        {
+          "question": "What does the Go compiler do when it encounters the 'main' function?",
+          "options": [
+            "Starts execution",
+            "Returns an error",
+            "Skips the function",
+            "Logs an error"
+          ],
+          "answer": "Starts execution"
+        },
+        {
+          "question": "What is the purpose of the 'go run' command in Go?",
+          "options": [
+            "Compile and run the program",
+            "Only compile the program",
+            "Only run the program",
+            "Create an executable file"
+          ],
+          "answer": "Compile and run the program"
+        },
+        {
+          "question": "Which function is used to read input from the console in Go?",
+          "options": ["fmt.Scan", "fmt.Read", "fmt.Input", "fmt.Scanln"],
+          "answer": "fmt.Scanln"
+        },
+        {
+          "question": "How can you define a struct in Go?",
+          "options": [
+            "type MyStruct struct {}",
+            "struct MyStruct {}",
+            "MyStruct struct {}",
+            "type struct MyStruct {}"
+          ],
+          "answer": "type MyStruct struct {}"
+        },
+        {
+          "question": "What is the default value of an uninitialized integer variable in Go?",
+          "options": ["0", "undefined", "nil", "false"],
+          "answer": "0"
+        },
+        {
+          "question": "Which of the following is the correct way to comment in Go?",
+          "options": [
+            "// Comment",
+            "/* Comment */",
+            "<-- Comment -->",
+            "# Comment"
+          ],
+          "answer": "// Comment"
+        },
+        {
+          "question": "How can you perform multiple assignment in Go?",
+          "options": [
+            "x, y = 10, 20",
+            "var x = 10, var y = 20",
+            "x := 10, y := 20",
+            "x = 10; y = 20"
+          ],
+          "answer": "x, y = 10, 20"
+        }
+      ]
+    },
+    {
+      "name": "PHP",
+      "image": "/images/php.png",
+      "questions": [
+        {
+          "question": "Which of the following is the correct way to declare a variable in PHP?",
+          "options": ["$x = 5;", "$x : 5;", "var $x = 5;", "x = 5;"],
+          "answer": "$x = 5;"
+        },
+        {
+          "question": "Which of the following is used to output data in PHP?",
+          "options": ["echo", "print", "printf", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What does the PHP function strlen() do?",
+          "options": [
+            "Returns the length of a string",
+            "Returns the first character of a string",
+            "Converts a string to uppercase",
+            "Checks if a string is empty"
+          ],
+          "answer": "Returns the length of a string"
+        },
+        {
+          "question": "Which of the following functions is used to include a file in PHP?",
+          "options": [
+            "include()",
+            "require()",
+            "include_once()",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        },
+        {
+          "question": "How can you comment a single line in PHP?",
+          "options": [
+            "// Comment",
+            "/* Comment */",
+            "# Comment",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        },
+        {
+          "question": "Which of the following is the correct way to declare a constant in PHP?",
+          "options": [
+            "define('CONSTANT', 10);",
+            "const CONSTANT = 10;",
+            "constant('CONSTANT', 10);",
+            "Both a and b"
+          ],
+          "answer": "Both a and b"
+        },
+        {
+          "question": "What will the following PHP code output: echo 10 + 20;",
+          "options": ["10", "20", "30", "Error"],
+          "answer": "30"
+        },
+        {
+          "question": "What is the function of the PHP isset() function?",
+          "options": [
+            "Checks if a variable is set",
+            "Checks if a variable is empty",
+            "Checks if a variable is an integer",
+            "Checks if a variable is null"
+          ],
+          "answer": "Checks if a variable is set"
+        },
+        {
+          "question": "Which of the following functions is used to connect to a MySQL database in PHP?",
+          "options": [
+            "mysql_connect()",
+            "mysqli_connect()",
+            "pdo_connect()",
+            "All of the above"
+          ],
+          "answer": "mysqli_connect()"
+        },
+        {
+          "question": "Which of the following is used to redirect a user to another page in PHP?",
+          "options": [
+            "header('Location: page.php');",
+            "location.href = 'page.php';",
+            "redirect('page.php');",
+            "All of the above"
+          ],
+          "answer": "header('Location: page.php');"
+        },
+        {
+          "question": "How can you retrieve the value of a form element named 'username' in PHP?",
+          "options": [
+            "$_POST['username']",
+            "$_GET['username']",
+            "$username",
+            "$_REQUEST['username']"
+          ],
+          "answer": "$_POST['username']"
+        },
+        {
+          "question": "What is the correct way to define a function in PHP?",
+          "options": [
+            "function myFunction() {}",
+            "def myFunction() {}",
+            "function myFunction: {}",
+            "func myFunction() {}"
+          ],
+          "answer": "function myFunction() {}"
+        },
+        {
+          "question": "Which of the following is a valid PHP data type?",
+          "options": ["integer", "float", "boolean", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "Which of the following functions is used to start a session in PHP?",
+          "options": [
+            "session_start()",
+            "start_session()",
+            "session_open()",
+            "session_init()"
+          ],
+          "answer": "session_start()"
+        },
+        {
+          "question": "What will the following PHP code output: echo 5 + '10';",
+          "options": ["510", "15", "Error", "0"],
+          "answer": "15"
+        },
+        {
+          "question": "Which PHP function is used to get the length of an array?",
+          "options": ["length()", "sizeof()", "count()", "array_length()"],
+          "answer": "count()"
+        },
+        {
+          "question": "Which of the following is used to start a loop in PHP?",
+          "options": ["for", "foreach", "while", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "Which PHP function is used to check if a file exists?",
+          "options": [
+            "file_exists()",
+            "file_check()",
+            "exists_file()",
+            "is_file()"
+          ],
+          "answer": "file_exists()"
+        },
+        {
+          "question": "Which of the following is the correct way to concatenate two strings in PHP?",
+          "options": [
+            "string1 . string2",
+            "string1 + string2",
+            "string1 * string2",
+            "concat(string1, string2)"
+          ],
+          "answer": "string1 . string2"
+        },
+        {
+          "question": "What is the purpose of the PHP function explode()?",
+          "options": [
+            "Splits a string into an array",
+            "Joins an array into a string",
+            "Replaces part of a string",
+            "Converts a string to lowercase"
+          ],
+          "answer": "Splits a string into an array"
+        },
+        {
+          "question": "Which of the following operators is used for equality comparison in PHP?",
+          "options": ["==", "===", "=", "Both a and b"],
+          "answer": "Both a and b"
+        },
+        {
+          "question": "What is the correct way to access an associative array in PHP?",
+          "options": [
+            "$array['key']",
+            "$array.key",
+            "array.key",
+            "array['key']"
+          ],
+          "answer": "$array['key']"
+        },
+        {
+          "question": "Which PHP function is used to include a file once in a script?",
+          "options": [
+            "include()",
+            "require_once()",
+            "include_once()",
+            "Both b and c"
+          ],
+          "answer": "Both b and c"
+        },
+        {
+          "question": "How can you submit a form using PHP?",
+          "options": [
+            "Using JavaScript",
+            "Using a POST method",
+            "Using a GET method",
+            "Both b and c"
+          ],
+          "answer": "Both b and c"
+        },
+        {
+          "question": "Which function is used to remove whitespace from the beginning and end of a string in PHP?",
+          "options": ["trim()", "strip_tags()", "clean()", "strip()"],
+          "answer": "trim()"
+        },
+        {
+          "question": "How do you declare an array in PHP?",
+          "options": [
+            "$array = array();",
+            "$array = [];",
+            "$array = {};",
+            "Both a and b"
+          ],
+          "answer": "Both a and b"
+        },
+        {
+          "question": "What is the purpose of the PHP function die()?",
+          "options": [
+            "Stops the execution of the script",
+            "Pauses the script",
+            "Logs an error",
+            "None of the above"
+          ],
+          "answer": "Stops the execution of the script"
+        },
+        {
+          "question": "Which of the following is used to compare two variables in PHP?",
+          "options": ["==", "===", "!==", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "Which of the following methods is used to send an HTTP request in PHP?",
+          "options": ["get()", "post()", "file_get_contents()", "curl()"],
+          "answer": "curl()"
+        },
+        {
+          "question": "Which function is used to get the current date in PHP?",
+          "options": ["current_date()", "get_date()", "date()", "get_today()"],
+          "answer": "date()"
+        }
+      ]
+    },
+    {
+      "name": " Rust",
+      "image": "/images/rust.png",
+      "questions": [
+        {
+          "question": "Which of the following is the correct way to declare a variable in Rust?",
+          "options": ["let x = 5;", "var x = 5;", "x = 5;", "int x = 5;"],
+          "answer": "let x = 5;"
+        },
+        {
+          "question": "Which of the following is used to output data in Rust?",
+          "options": ["println!", "echo", "print!", "write!"],
+          "answer": "println!"
+        },
+        {
+          "question": "What does the Rust function 'clone()' do?",
+          "options": [
+            "Clones the value of a variable",
+            "Copies a variable by reference",
+            "Duplicates a variable's value",
+            "Creates a new variable"
+          ],
+          "answer": "Clones the value of a variable"
+        },
+        {
+          "question": "Which of the following is the correct way to define a function in Rust?",
+          "options": [
+            "fn my_function() {}",
+            "function my_function() {}",
+            "def my_function() {}",
+            "func my_function() {}"
+          ],
+          "answer": "fn my_function() {}"
+        },
+        {
+          "question": "How do you comment a single line in Rust?",
+          "options": ["// Comment", "# Comment", "/* Comment */", "/* Comment"],
+          "answer": "// Comment"
+        },
+        {
+          "question": "What is the purpose of the 'match' statement in Rust?",
+          "options": [
+            "To compare values",
+            "To handle different conditions",
+            "For pattern matching",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        },
+        {
+          "question": "Which of the following is a valid data type in Rust?",
+          "options": ["i32", "float", "boolean", "None of the above"],
+          "answer": "i32"
+        },
+        {
+          "question": "How do you declare an immutable variable in Rust?",
+          "options": [
+            "let x = 10;",
+            "const x = 10;",
+            "var x = 10;",
+            "int x = 10;"
+          ],
+          "answer": "let x = 10;"
+        },
+        {
+          "question": "Which of the following is the keyword used to create a mutable variable in Rust?",
+          "options": ["mut", "mutable", "var", "let mutable"],
+          "answer": "mut"
+        },
+        {
+          "question": "What does the Rust 'Option' type represent?",
+          "options": [
+            "It represents a value or no value",
+            "It stores multiple values",
+            "It represents an integer",
+            "It represents a string"
+          ],
+          "answer": "It represents a value or no value"
+        },
+        {
+          "question": "What is the syntax for creating a tuple in Rust?",
+          "options": ["(1, 2)", "{1, 2}", "[1, 2]", "1, 2"],
+          "answer": "(1, 2)"
+        },
+        {
+          "question": "How do you create an array in Rust?",
+          "options": [
+            "let arr = [1, 2, 3];",
+            "let arr = new int[3];",
+            "arr = {1, 2, 3};",
+            "let arr = (1, 2, 3);"
+          ],
+          "answer": "let arr = [1, 2, 3];"
+        },
+        {
+          "question": "Which of the following statements is used to stop the execution of a loop in Rust?",
+          "options": ["exit", "stop", "break", "end"],
+          "answer": "break"
+        },
+        {
+          "question": "How do you define a struct in Rust?",
+          "options": [
+            "struct MyStruct {}",
+            "class MyStruct {}",
+            "type MyStruct {}",
+            "def MyStruct {}"
+          ],
+          "answer": "struct MyStruct {}"
+        },
+        {
+          "question": "Which of the following is used to handle errors in Rust?",
+          "options": ["unwrap()", "expect()", "Result", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "How do you create a vector in Rust?",
+          "options": [
+            "let v = vec![1, 2, 3];",
+            "let v = new vector(1, 2, 3);",
+            "let v = [1, 2, 3];",
+            "let v = Vec(1, 2, 3);"
+          ],
+          "answer": "let v = vec![1, 2, 3];"
+        },
+        {
+          "question": "What is the purpose of 'Borrowing' in Rust?",
+          "options": [
+            "To allow multiple references to data",
+            "To create copies of data",
+            "To prevent data from being mutable",
+            "None of the above"
+          ],
+          "answer": "To allow multiple references to data"
+        },
+        {
+          "question": "Which of the following is the correct way to handle an error using the 'Result' type in Rust?",
+          "options": [
+            "result.unwrap()",
+            "result.unwrap_or(0)",
+            "result.expect('Error')",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        },
+        {
+          "question": "Which of the following is used to handle concurrency in Rust?",
+          "options": [
+            "Threads",
+            "Goroutines",
+            "Async/Await",
+            "All of the above"
+          ],
+          "answer": "Threads"
+        },
+        {
+          "question": "What is the keyword used to define a constant in Rust?",
+          "options": ["const", "let", "static", "constant"],
+          "answer": "const"
+        },
+        {
+          "question": "How do you handle ownership of data in Rust?",
+          "options": [
+            "By passing the data between variables",
+            "Using the clone method",
+            "Using the 'move' and 'borrow' concepts",
+            "None of the above"
+          ],
+          "answer": "Using the 'move' and 'borrow' concepts"
+        },
+        {
+          "question": "Which of the following is the correct way to declare a function that returns a value in Rust?",
+          "options": [
+            "fn add(x: i32, y: i32) -> i32 {}",
+            "function add(x: i32, y: i32) => i32 {}",
+            "def add(x: i32, y: i32) -> i32 {}",
+            "add(x: i32, y: i32) -> i32 {}"
+          ],
+          "answer": "fn add(x: i32, y: i32) -> i32 {}"
+        },
+        {
+          "question": "What is the result of using the 'match' keyword in Rust?",
+          "options": [
+            "It provides pattern matching",
+            "It creates a loop",
+            "It defines a function",
+            "None of the above"
+          ],
+          "answer": "It provides pattern matching"
+        },
+        {
+          "question": "Which of the following is used to iterate over elements in a vector in Rust?",
+          "options": [
+            "for element in v {}",
+            "for element : v {}",
+            "foreach element in v {}",
+            "each element in v {}"
+          ],
+          "answer": "for element in v {}"
+        },
+        {
+          "question": "Which of the following is a valid way to declare a reference to a variable in Rust?",
+          "options": ["&x", "ref x", "let x", "mut x"],
+          "answer": "&x"
+        },
+        {
+          "question": "How do you handle nullable types in Rust?",
+          "options": [
+            "Using Option<T>",
+            "Using null",
+            "Using Nullable<T>",
+            "None of the above"
+          ],
+          "answer": "Using Option<T>"
+        },
+        {
+          "question": "What is the primary purpose of Rust's 'unsafe' keyword?",
+          "options": [
+            "To allow operations that could potentially break the Rust memory safety rules",
+            "To define unsafe code",
+            "To optimize the performance of a program",
+            "To avoid memory leaks"
+          ],
+          "answer": "To allow operations that could potentially break the Rust memory safety rules"
+        },
+        {
+          "question": "What is a macro in Rust?",
+          "options": [
+            "A function-like construct",
+            "A type",
+            "A library",
+            "None of the above"
+          ],
+          "answer": "A function-like construct"
+        },
+        {
+          "question": "Which of the following best describes the 'Vec' type in Rust?",
+          "options": [
+            "A growable array",
+            "A static array",
+            "A fixed-size list",
+            "A tuple"
+          ],
+          "answer": "A growable array"
+        },
+        {
+          "question": "Which of the following is a valid syntax for importing a module in Rust?",
+          "options": [
+            "use std::io;",
+            "import std.io;",
+            "module std::io;",
+            "include std::io;"
+          ],
+          "answer": "use std::io;"
+        },
+        {
+          "question": "How do you create an instance of a struct in Rust?",
+          "options": [
+            "let x = MyStruct { field: value };",
+            "let x = new MyStruct { field: value };",
+            "let x = MyStruct(field = value);",
+            "let x = MyStruct();"
+          ],
+          "answer": "let x = MyStruct { field: value };"
+        }
+      ]
+    },
+    {
+      "name": "Ruby",
+      "image": "/images/RUBY.png",
+      "questions": [
+        {
+          "question": "Which of the following is the correct way to declare a variable in Ruby?",
+          "options": ["x = 5", "let x = 5", "var x = 5", "int x = 5"],
+          "answer": "x = 5"
+        },
+        {
+          "question": "How do you define a method in Ruby?",
+          "options": [
+            "def my_method",
+            "function my_method",
+            "method my_method",
+            "define my_method"
+          ],
+          "answer": "def my_method"
+        },
+        {
+          "question": "Which of the following is used to print output in Ruby?",
+          "options": ["puts", "echo", "print", "write"],
+          "answer": "puts"
+        },
+        {
+          "question": "What is the result of the following Ruby code: puts 5 + 5?",
+          "options": ["5", "10", "55", "Error"],
+          "answer": "10"
+        },
+        {
+          "question": "How do you create an array in Ruby?",
+          "options": [
+            "array = [1, 2, 3]",
+            "array = (1, 2, 3)",
+            "array = {1, 2, 3}",
+            "array = <1, 2, 3>"
+          ],
+          "answer": "array = [1, 2, 3]"
+        },
+        {
+          "question": "Which of the following methods is used to add an element to an array in Ruby?",
+          "options": ["push", "add", "insert", "append"],
+          "answer": "push"
+        },
+        {
+          "question": "What is the output of this Ruby code: arr = [1, 2, 3]; arr.pop; puts arr?",
+          "options": ["[1, 2, 3]", "[1, 2]", "[2, 3]", "Error"],
+          "answer": "[1, 2]"
+        },
+        {
+          "question": "Which of the following is the correct way to define a class in Ruby?",
+          "options": [
+            "class MyClass",
+            "class: MyClass",
+            "MyClass class",
+            "def MyClass"
+          ],
+          "answer": "class MyClass"
+        },
+        {
+          "question": "How do you create an object of a class in Ruby?",
+          "options": [
+            "object = MyClass.new",
+            "object = new MyClass",
+            "object = MyClass()",
+            "object = new MyClass()"
+          ],
+          "answer": "object = MyClass.new"
+        },
+        {
+          "question": "What does the 'each' method do in Ruby?",
+          "options": [
+            "Iterates over a collection",
+            "Adds an element to a collection",
+            "Creates a new collection",
+            "None of the above"
+          ],
+          "answer": "Iterates over a collection"
+        },
+        {
+          "question": "Which of the following keywords is used to inherit a class in Ruby?",
+          "options": ["<", "inherits", "extends", "super"],
+          "answer": "inherits"
+        },
+        {
+          "question": "How do you define a constant in Ruby?",
+          "options": [
+            "CONSTANT = 10",
+            "let CONSTANT = 10",
+            "constant CONSTANT = 10",
+            "const CONSTANT = 10"
+          ],
+          "answer": "CONSTANT = 10"
+        },
+        {
+          "question": "Which of the following methods is used to check if a string contains a substring in Ruby?",
+          "options": ["include?", "contains?", "has?", "substring?"],
+          "answer": "include?"
+        },
+        {
+          "question": "How do you handle exceptions in Ruby?",
+          "options": [
+            "begin-rescue-end",
+            "try-catch",
+            "try-except",
+            "handle-exception"
+          ],
+          "answer": "begin-rescue-end"
+        },
+        {
+          "question": "What is the purpose of the 'super' keyword in Ruby?",
+          "options": [
+            "Calls a method from the superclass",
+            "Creates a new instance of the class",
+            "Defines an abstract method",
+            "None of the above"
+          ],
+          "answer": "Calls a method from the superclass"
+        },
+        {
+          "question": "How do you define a block in Ruby?",
+          "options": [
+            "{ code }",
+            "do code end",
+            "block { code }",
+            "block do code end"
+          ],
+          "answer": "do code end"
+        },
+        {
+          "question": "Which of the following methods is used to convert a string to an integer in Ruby?",
+          "options": ["to_i", "to_integer", "int", "convert_to_int"],
+          "answer": "to_i"
+        },
+        {
+          "question": "What will be the output of this Ruby code: puts 'hello'.upcase?",
+          "options": ["hello", "HELLO", "hello.upcase", "Error"],
+          "answer": "HELLO"
+        },
+        {
+          "question": "How do you define a module in Ruby?",
+          "options": [
+            "module MyModule",
+            "module: MyModule",
+            "def MyModule",
+            "create module MyModule"
+          ],
+          "answer": "module MyModule"
+        },
+        {
+          "question": "Which method in Ruby is used to find the length of a string?",
+          "options": ["length", "size", "count", "both a and b"],
+          "answer": "both a and b"
+        },
+        {
+          "question": "What will be the output of this Ruby code: arr = [1, 2, 3]; arr.include?(2); puts arr?",
+          "options": ["[1, 2, 3]", "2", "true", "false"],
+          "answer": "[1, 2, 3]"
+        },
+        {
+          "question": "Which of the following methods is used to remove an element from an array in Ruby?",
+          "options": ["delete", "remove", "pop", "both a and c"],
+          "answer": "both a and c"
+        },
+        {
+          "question": "How do you create a hash in Ruby?",
+          "options": [
+            "hash = {key: value}",
+            "hash = [:key => value]",
+            "hash = {key => value}",
+            "hash = (key => value)"
+          ],
+          "answer": "hash = {key: value}"
+        },
+        {
+          "question": "What is the purpose of the 'self' keyword in Ruby?",
+          "options": [
+            "Refers to the current object",
+            "Refers to the class",
+            "Refers to the superclass",
+            "None of the above"
+          ],
+          "answer": "Refers to the current object"
+        },
+        {
+          "question": "Which of the following is the correct way to define an instance variable in Ruby?",
+          "options": [
+            "@variable",
+            "variable",
+            "$variable",
+            "instance_variable"
+          ],
+          "answer": "@variable"
+        },
+        {
+          "question": "How do you define a class method in Ruby?",
+          "options": [
+            "def self.method_name",
+            "def class.method_name",
+            "class.method_name",
+            "def method_name"
+          ],
+          "answer": "def self.method_name"
+        },
+        {
+          "question": "Which of the following is used to iterate over a range in Ruby?",
+          "options": ["each", "for", "times", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "Which of the following methods is used to sort an array in Ruby?",
+          "options": ["sort", "order", "arrange", "both a and b"],
+          "answer": "sort"
+        },
+        {
+          "question": "How do you define a private method in Ruby?",
+          "options": [
+            "private def method_name",
+            "def private method_name",
+            "method_name private",
+            "None of the above"
+          ],
+          "answer": "private def method_name"
+        },
+        {
+          "question": "Which of the following is used to execute a block of code after an exception is raised in Ruby?",
+          "options": ["ensure", "finalize", "after", "catch"],
+          "answer": "ensure"
+        },
+        {
+          "question": "What is the correct way to call a method from a class object in Ruby?",
+          "options": [
+            "object.method_name",
+            "class.method_name",
+            "object.method()",
+            "method(object)"
+          ],
+          "answer": "object.method_name"
+        },
+        {
+          "question": "What is the correct syntax for opening a file in Ruby?",
+          "options": [
+            "File.open('filename', 'r')",
+            "open('filename', 'r')",
+            "File.read('filename')",
+            "open_file('filename', 'r')"
+          ],
+          "answer": "File.open('filename', 'r')"
+        },
+        {
+          "question": "Which of the following is used to check the type of an object in Ruby?",
+          "options": ["is_a?", "type?", "kind_of?", "all of the above"],
+          "answer": "all of the above"
+        }
+      ]
+    },
+    {
+      "name": "Swift",
+      "image": "/images/swift.png",
+      "questions": [
+        {
+          "question": "Which of the following is the correct way to declare a variable in Swift?",
+          "options": ["var x = 5", "let x = 5", "x = 5", "int x = 5"],
+          "answer": "var x = 5"
+        },
+        {
+          "question": "How do you define a constant in Swift?",
+          "options": [
+            "const x = 10",
+            "let x = 10",
+            "constant x = 10",
+            "var x = 10"
+          ],
+          "answer": "let x = 10"
+        },
+        {
+          "question": "Which of the following data types is not supported by Swift?",
+          "options": ["Integer", "Double", "Float", "Decimal"],
+          "answer": "Decimal"
+        },
+        {
+          "question": "Which of the following keywords is used to define a function in Swift?",
+          "options": ["function", "def", "func", "method"],
+          "answer": "func"
+        },
+        {
+          "question": "Which of the following is the correct way to declare a constant array in Swift?",
+          "options": [
+            "let arr = [1, 2, 3]",
+            "const arr = [1, 2, 3]",
+            "let arr = {1, 2, 3}",
+            "array arr = [1, 2, 3]"
+          ],
+          "answer": "let arr = [1, 2, 3]"
+        },
+        {
+          "question": "How do you print a message in Swift?",
+          "options": [
+            "echo('Hello')",
+            "print('Hello')",
+            "println('Hello')",
+            "echo 'Hello'"
+          ],
+          "answer": "print('Hello')"
+        },
+        {
+          "question": "What does the 'guard' keyword do in Swift?",
+          "options": [
+            "Used for error handling",
+            "Used to exit early from a function",
+            "Defines a constant",
+            "Defines a loop"
+          ],
+          "answer": "Used to exit early from a function"
+        },
+        {
+          "question": "Which of the following is used to create a tuple in Swift?",
+          "options": ["(1, 2, 3)", "{1, 2, 3}", "[1, 2, 3]", "(a: 1, b: 2)"],
+          "answer": "(1, 2, 3)"
+        },
+        {
+          "question": "How do you define a class in Swift?",
+          "options": [
+            "class MyClass {}",
+            "MyClass class {}",
+            "define class MyClass {}",
+            "class MyClass() {}"
+          ],
+          "answer": "class MyClass {}"
+        },
+        {
+          "question": "How do you create an instance of a class in Swift?",
+          "options": [
+            "let object = MyClass()",
+            "object = MyClass()",
+            "new MyClass()",
+            "MyClass.new()"
+          ],
+          "answer": "let object = MyClass()"
+        },
+        {
+          "question": "What is the result of the following Swift code: var a = 10; var b = 5; a = b;",
+          "options": ["10", "5", "Error", "None of the above"],
+          "answer": "5"
+        },
+        {
+          "question": "What is the purpose of the 'defer' keyword in Swift?",
+          "options": [
+            "To handle exceptions",
+            "To delay execution until the scope ends",
+            "To define constants",
+            "To exit early from a function"
+          ],
+          "answer": "To delay execution until the scope ends"
+        },
+        {
+          "question": "Which of the following is used to define an optional in Swift?",
+          "options": [
+            "let x: Int? = 10",
+            "var x: Int = 10",
+            "let x: Optional = 10",
+            "var x = 10?"
+          ],
+          "answer": "let x: Int? = 10"
+        },
+        {
+          "question": "Which operator is used to unwrap an optional in Swift?",
+          "options": ["!", "?", "$", "%%"],
+          "answer": "!"
+        },
+        {
+          "question": "How do you handle errors in Swift?",
+          "options": ["try-catch", "try-except", "throw-catch", "do-try-catch"],
+          "answer": "do-try-catch"
+        },
+        {
+          "question": "Which of the following methods is used to sort an array in Swift?",
+          "options": ["sort()", "ordered()", "arrange()", "sortArray()"],
+          "answer": "sort()"
+        },
+        {
+          "question": "How do you declare an enum in Swift?",
+          "options": [
+            "enum MyEnum {}",
+            "MyEnum enum {}",
+            "enum: MyEnum {}",
+            "enum MyEnum() {}"
+          ],
+          "answer": "enum MyEnum {}"
+        },
+        {
+          "question": "Which keyword is used to inherit a class in Swift?",
+          "options": ["extends", "inherits", "super", ":", "extends class"],
+          "answer": ":"
+        },
+        {
+          "question": "What is the use of the 'self' keyword in Swift?",
+          "options": [
+            "Refers to the current object",
+            "Refers to the class",
+            "Refers to a method",
+            "None of the above"
+          ],
+          "answer": "Refers to the current object"
+        },
+        {
+          "question": "Which of the following is used to loop through elements in an array in Swift?",
+          "options": [
+            "for element in array",
+            "for each element in array",
+            "each element array",
+            "loop array"
+          ],
+          "answer": "for element in array"
+        },
+        {
+          "question": "How do you define a computed property in Swift?",
+          "options": [
+            "var property: Type { get { return value } }",
+            "let property: Type = value",
+            "func property() { return value }",
+            "var property = value"
+          ],
+          "answer": "var property: Type { get { return value } }"
+        },
+        {
+          "question": "How do you define a closure in Swift?",
+          "options": [
+            "{ code }",
+            "closure { code }",
+            "func { code }",
+            "closure = { code }"
+          ],
+          "answer": "{ code }"
+        },
+        {
+          "question": "Which of the following operators is used to compare two values in Swift?",
+          "options": ["==", "=", "!==", "<=>"],
+          "answer": "=="
+        },
+        {
+          "question": "Which of the following is the correct way to call a method from a class instance in Swift?",
+          "options": [
+            "object.method()",
+            "object.method",
+            "method.object()",
+            "object->method()"
+          ],
+          "answer": "object.method()"
+        },
+        {
+          "question": "How do you declare a variable with a default value in Swift?",
+          "options": [
+            "var x = 10",
+            "let x = 10",
+            "default x = 10",
+            "var x: Int = 10"
+          ],
+          "answer": "var x = 10"
+        },
+        {
+          "question": "What is the result of the following Swift code: let str = 'Hello'; let result = str.uppercaseString;",
+          "options": ["hello", "Hello", "HELLO", "Error"],
+          "answer": "HELLO"
+        },
+        {
+          "question": "How do you define a protocol in Swift?",
+          "options": [
+            "protocol MyProtocol {}",
+            "define protocol MyProtocol {}",
+            "class MyProtocol {}",
+            "type protocol MyProtocol {}"
+          ],
+          "answer": "protocol MyProtocol {}"
+        },
+        {
+          "question": "Which of the following is a valid way to call a method from a superclass in Swift?",
+          "options": [
+            "super.method()",
+            "superMethod()",
+            "call superMethod()",
+            "call method()"
+          ],
+          "answer": "super.method()"
+        },
+        {
+          "question": "How do you declare a dictionary in Swift?",
+          "options": [
+            "let dict = ['key': 'value']",
+            "let dict = [key: value]",
+            "let dict = {key: value}",
+            "let dict = ['key' => 'value']"
+          ],
+          "answer": "let dict = ['key': 'value']"
+        },
+        {
+          "question": "What is the result of this Swift code: let str = 'Swift'; let newStr = str.lowercased()?",
+          "options": ["swift", "Swift", "SWIFT", "Error"],
+          "answer": "swift"
+        },
+        {
+          "question": "How do you create a new instance of a struct in Swift?",
+          "options": [
+            "let object = MyStruct()",
+            "object = MyStruct()",
+            "new MyStruct()",
+            "MyStruct()"
+          ],
+          "answer": "let object = MyStruct()"
+        },
+        {
+          "question": "Which of the following methods is used to remove an element from an array in Swift?",
+          "options": ["removeAt()", "remove()", "pop()", "delete()"],
+          "answer": "removeAt()"
+        },
+        {
+          "question": "What is the correct syntax to declare a weak reference in Swift?",
+          "options": [
+            "weak var reference: Type?",
+            "weak reference: Type?",
+            "weak reference = Type()",
+            "weakType var reference: Type"
+          ],
+          "answer": "weak var reference: Type?"
+        }
+      ]
+    },
+    {
+      "name": " Assembly language",
+      "image": "/images/assembly.png",
+      "questions": [
+        {
+          "question": "What is Assembly Language?",
+          "options": [
+            "Low-level programming language",
+            "High-level programming language",
+            "Markup language",
+            "Database query language"
+          ],
+          "answer": "Low-level programming language"
+        },
+        {
+          "question": "Which of the following is a characteristic of Assembly Language?",
+          "options": [
+            "Close to machine code",
+            "Platform-independent",
+            "Uses English keywords",
+            "High-level abstraction"
+          ],
+          "answer": "Close to machine code"
+        },
+        {
+          "question": "Which of the following is the primary function of an assembler?",
+          "options": [
+            "Translate Assembly code to machine code",
+            "Translate machine code to Assembly code",
+            "Execute the program",
+            "Store the program in memory"
+          ],
+          "answer": "Translate Assembly code to machine code"
+        },
+        {
+          "question": "Which of the following is NOT an Assembly Language directive?",
+          "options": ["MOV", "DB", "ORG", "END"],
+          "answer": "MOV"
+        },
+        {
+          "question": "What does the 'MOV' instruction do in Assembly?",
+          "options": [
+            "Move data between registers",
+            "Perform an addition",
+            "Jump to a new location",
+            "Compare two values"
+          ],
+          "answer": "Move data between registers"
+        },
+        {
+          "question": "Which of the following registers is used for holding data in Assembly?",
+          "options": ["AX", "DX", "CX", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "In Assembly, what does the 'CMP' instruction do?",
+          "options": [
+            "Compares two values",
+            "Moves data",
+            "Performs an addition",
+            "None of the above"
+          ],
+          "answer": "Compares two values"
+        },
+        {
+          "question": "What does the 'JMP' instruction do in Assembly?",
+          "options": [
+            "Jump to a specified memory address",
+            "Move data",
+            "Load a register",
+            "Compare two values"
+          ],
+          "answer": "Jump to a specified memory address"
+        },
+        {
+          "question": "Which of the following is the correct way to define a byte in Assembly?",
+          "options": ["DB", "DW", "DD", "DQ"],
+          "answer": "DB"
+        },
+        {
+          "question": "Which of the following is used to define a word in Assembly?",
+          "options": ["DW", "DB", "DD", "DQ"],
+          "answer": "DW"
+        },
+        {
+          "question": "What does the 'NOP' instruction do in Assembly?",
+          "options": [
+            "No operation",
+            "Subtract values",
+            "Load a register",
+            "Add two numbers"
+          ],
+          "answer": "No operation"
+        },
+        {
+          "question": "What does the 'PUSH' instruction do in Assembly?",
+          "options": [
+            "Push data onto the stack",
+            "Pop data from the stack",
+            "Move data to a register",
+            "None of the above"
+          ],
+          "answer": "Push data onto the stack"
+        },
+        {
+          "question": "What does the 'POP' instruction do in Assembly?",
+          "options": [
+            "Pop data from the stack",
+            "Push data onto the stack",
+            "Move data to a register",
+            "None of the above"
+          ],
+          "answer": "Pop data from the stack"
+        },
+        {
+          "question": "Which register is the primary accumulator register in Assembly?",
+          "options": ["AX", "BX", "CX", "DX"],
+          "answer": "AX"
+        },
+        {
+          "question": "Which of the following is NOT an example of an Assembly instruction?",
+          "options": ["MOV", "ADD", "JUMP", "TOGGLE"],
+          "answer": "TOGGLE"
+        },
+        {
+          "question": "What does the 'INT' instruction do in Assembly?",
+          "options": [
+            "Interrupt the program",
+            "Jump to a memory address",
+            "Perform a subtraction",
+            "None of the above"
+          ],
+          "answer": "Interrupt the program"
+        },
+        {
+          "question": "Which of the following directives is used to specify the beginning of data in Assembly?",
+          "options": ["ORG", "DB", "DW", "SEG"],
+          "answer": "ORG"
+        },
+        {
+          "question": "In Assembly, what does the 'END' directive signify?",
+          "options": [
+            "End of the program",
+            "End of data segment",
+            "End of the instruction",
+            "None of the above"
+          ],
+          "answer": "End of the program"
+        },
+        {
+          "question": "Which of the following is the purpose of the 'RET' instruction in Assembly?",
+          "options": [
+            "Return from a function",
+            "Perform an addition",
+            "Move data",
+            "Compare two values"
+          ],
+          "answer": "Return from a function"
+        },
+        {
+          "question": "What does the 'TEST' instruction do in Assembly?",
+          "options": [
+            "Performs a bitwise AND operation",
+            "Moves data",
+            "Compares two values",
+            "Performs a subtraction"
+          ],
+          "answer": "Performs a bitwise AND operation"
+        },
+        {
+          "question": "Which of the following is the correct way to perform an addition in Assembly?",
+          "options": ["ADD", "SUM", "INC", "ADDQ"],
+          "answer": "ADD"
+        },
+        {
+          "question": "Which of the following is used for defining a double word in Assembly?",
+          "options": ["DD", "DW", "DQ", "DB"],
+          "answer": "DD"
+        },
+        {
+          "question": "Which of the following instructions is used to perform a conditional jump in Assembly?",
+          "options": ["JZ", "MOV", "ADD", "NOP"],
+          "answer": "JZ"
+        },
+        {
+          "question": "In Assembly, what is a label?",
+          "options": [
+            "A symbolic name representing a memory address",
+            "A register",
+            "A data segment",
+            "None of the above"
+          ],
+          "answer": "A symbolic name representing a memory address"
+        },
+        {
+          "question": "What does the 'AND' instruction do in Assembly?",
+          "options": [
+            "Performs a bitwise AND operation",
+            "Performs a bitwise OR operation",
+            "Performs a bitwise XOR operation",
+            "Performs an addition"
+          ],
+          "answer": "Performs a bitwise AND operation"
+        },
+        {
+          "question": "Which of the following is used for defining a quad word in Assembly?",
+          "options": ["DQ", "DD", "DW", "DB"],
+          "answer": "DQ"
+        },
+        {
+          "question": "What does the 'CALL' instruction do in Assembly?",
+          "options": [
+            "Calls a subroutine",
+            "Moves data",
+            "Compares values",
+            "None of the above"
+          ],
+          "answer": "Calls a subroutine"
+        },
+        {
+          "question": "Which of the following statements is correct regarding the stack in Assembly?",
+          "options": [
+            "The stack is used for storing return addresses",
+            "The stack is used for storing data",
+            "Both a and b",
+            "None of the above"
+          ],
+          "answer": "Both a and b"
+        }
+      ]
+    },
+    {
+      "name": "Kotlin",
+      "image": "/images/kotlin.png",
+      "questions": [
+        {
+          "question": "Which of the following is the correct way to declare a variable in Kotlin?",
+          "options": ["var x = 5", "let x = 5", "val x = 5", "int x = 5"],
+          "answer": "val x = 5"
+        },
+        {
+          "question": "How do you define a constant in Kotlin?",
+          "options": [
+            "const val x = 10",
+            "let val x = 10",
+            "val x = 10",
+            "constant x = 10"
+          ],
+          "answer": "const val x = 10"
+        },
+        {
+          "question": "Which of the following keywords is used to declare a function in Kotlin?",
+          "options": ["function", "fun", "def", "method"],
+          "answer": "fun"
+        },
+        {
+          "question": "Which type of function is used for defining a method that does not return any value?",
+          "options": [
+            "Unit function",
+            "Void function",
+            "Nothing function",
+            "Null function"
+          ],
+          "answer": "Unit function"
+        },
+        {
+          "question": "What does the 'val' keyword signify in Kotlin?",
+          "options": ["Variable", "Constant", "Mutable variable", "Function"],
+          "answer": "Constant"
+        },
+        {
+          "question": "Which of the following is the correct way to define a null-able type in Kotlin?",
+          "options": ["String?", "String", "nullable String", "String!"],
+          "answer": "String?"
+        },
+        {
+          "question": "Which of the following is the correct syntax to define an array in Kotlin?",
+          "options": [
+            "val arr = arrayOf(1, 2, 3)",
+            "array val arr = [1, 2, 3]",
+            "let arr = [1, 2, 3]",
+            "arr = array(1, 2, 3)"
+          ],
+          "answer": "val arr = arrayOf(1, 2, 3)"
+        },
+        {
+          "question": "Which keyword is used to define a class in Kotlin?",
+          "options": ["class", "def", "object", "function"],
+          "answer": "class"
+        },
+        {
+          "question": "How do you create an instance of a class in Kotlin?",
+          "options": [
+            "val obj = MyClass()",
+            "obj = MyClass()",
+            "MyClass obj = new MyClass()",
+            "new MyClass()"
+          ],
+          "answer": "val obj = MyClass()"
+        },
+        {
+          "question": "Which of the following is used for defining an interface in Kotlin?",
+          "options": ["interface", "abstract", "def", "protocol"],
+          "answer": "interface"
+        },
+        {
+          "question": "How do you declare a function with default arguments in Kotlin?",
+          "options": [
+            "fun myFunction(a: Int = 5) {}",
+            "fun myFunction(a = 5): Int {}",
+            "function myFunction(a = 5) {}",
+            "def myFunction(a: Int = 5) {}"
+          ],
+          "answer": "fun myFunction(a: Int = 5) {}"
+        },
+        {
+          "question": "What is the result of the following Kotlin code: val x = 10; val y = 5; println(x / y)?",
+          "options": ["2", "5", "10", "None of the above"],
+          "answer": "2"
+        },
+        {
+          "question": "What does the '?.' operator do in Kotlin?",
+          "options": [
+            "Safe call operator",
+            "Elvis operator",
+            "Equality operator",
+            "Not-null assertion operator"
+          ],
+          "answer": "Safe call operator"
+        },
+        {
+          "question": "Which of the following is used to handle null safety in Kotlin?",
+          "options": ["?.", "!!", "?::", "Elvis"],
+          "answer": "?."
+        },
+        {
+          "question": "Which of the following is used to define an enum class in Kotlin?",
+          "options": [
+            "enum class MyEnum {}",
+            "enum MyEnum {}",
+            "MyEnum class enum {}",
+            "enumclass MyEnum{}"
+          ],
+          "answer": "enum class MyEnum {}"
+        },
+        {
+          "question": "What does the '!!' operator do in Kotlin?",
+          "options": [
+            "Throws an exception if the value is null",
+            "Safe call operator",
+            "Checks for null",
+            "Nothing"
+          ],
+          "answer": "Throws an exception if the value is null"
+        },
+        {
+          "question": "What does the 'is' keyword do in Kotlin?",
+          "options": [
+            "Checks the type of an object",
+            "Checks for null",
+            "Checks equality",
+            "Checks the length of a string"
+          ],
+          "answer": "Checks the type of an object"
+        },
+        {
+          "question": "Which of the following is a valid way to create a string template in Kotlin?",
+          "options": [
+            "val name = \"John\"; println(\"Hello, $name\")",
+            "val name = \"John\"; println(\"Hello, {name}\")",
+            "println(\"Hello + name\")",
+            "println(\"Hello, name\")"
+          ],
+          "answer": "val name = \"John\"; println(\"Hello, $name\")"
+        },
+        {
+          "question": "How do you define a primary constructor in Kotlin?",
+          "options": [
+            "class MyClass(val x: Int)",
+            "class MyClass { val x: Int }",
+            "class MyClass(x: Int) {}",
+            "class MyClass(val x)"
+          ],
+          "answer": "class MyClass(val x: Int)"
+        },
+        {
+          "question": "How do you create a companion object in Kotlin?",
+          "options": [
+            "companion object MyObject {}",
+            "object MyObject {}",
+            "companion MyObject {}",
+            "object companion MyObject {}"
+          ],
+          "answer": "companion object MyObject {}"
+        },
+        {
+          "question": "What is the purpose of the 'in' keyword in Kotlin?",
+          "options": [
+            "Checks if an item is contained in a collection",
+            "Defines a range",
+            "Defines a variable",
+            "Specifies an interface"
+          ],
+          "answer": "Checks if an item is contained in a collection"
+        },
+        {
+          "question": "Which of the following is the correct way to declare a set in Kotlin?",
+          "options": [
+            "val set = setOf(1, 2, 3)",
+            "set val = [1, 2, 3]",
+            "val set = {1, 2, 3}",
+            "set = [1, 2, 3]"
+          ],
+          "answer": "val set = setOf(1, 2, 3)"
+        },
+        {
+          "question": "Which of the following is a correct way to define a read-only property in Kotlin?",
+          "options": ["val x: Int", "let x: Int", "var x: Int", "const x: Int"],
+          "answer": "val x: Int"
+        },
+        {
+          "question": "What is the function of the 'break' keyword in Kotlin?",
+          "options": [
+            "Exits a loop",
+            "Ends the program",
+            "Exits a function",
+            "None of the above"
+          ],
+          "answer": "Exits a loop"
+        },
+        {
+          "question": "How do you define a multi-line string in Kotlin?",
+          "options": [
+            "val str = \"\"\"This is a string\"\"\"",
+            "val str = 'This is a string'",
+            "val str = 'This is a string\nAnother line'",
+            "val str = \"This is a string\nAnother line\""
+          ],
+          "answer": "val str = \"\"\"This is a string\"\"\""
+        },
+        {
+          "question": "Which of the following functions is used to find the length of a string in Kotlin?",
+          "options": ["str.length()", "str.size()", "str.length", "str.size"],
+          "answer": "str.length"
+        },
+        {
+          "question": "How do you declare a nullable type in Kotlin?",
+          "options": [
+            "var name: String? = null",
+            "var name: String = null",
+            "val name: String? = null",
+            "val name: String = null"
+          ],
+          "answer": "var name: String? = null"
+        },
+        {
+          "question": "Which keyword is used for inheritance in Kotlin?",
+          "options": ["extends", "inherits", ":", "super"],
+          "answer": ":"
+        }
+      ]
+    },
+    {
+      "name": "R",
+      "image": "/images/r.png",
+      "questions": [
+        {
+          "question": "Which of the following is the correct way to create a vector in R?",
+          "options": [
+            "vec <- c(1, 2, 3)",
+            "vec = [1, 2, 3]",
+            "vec := c(1, 2, 3)",
+            "vec <- 1, 2, 3"
+          ],
+          "answer": "vec <- c(1, 2, 3)"
+        },
+        {
+          "question": "Which function is used to calculate the mean of a vector in R?",
+          "options": ["mean()", "average()", "median()", "mean_value()"],
+          "answer": "mean()"
+        },
+        {
+          "question": "What does the 'data.frame()' function do in R?",
+          "options": [
+            "Creates a data frame",
+            "Creates a vector",
+            "Creates a list",
+            "Creates a matrix"
+          ],
+          "answer": "Creates a data frame"
+        },
+        {
+          "question": "How do you define a matrix in R?",
+          "options": [
+            "mat <- matrix(1:6, nrow=2, ncol=3)",
+            "mat = matrix(1, 2, 3)",
+            "matrix(1, 2, 3)",
+            "matrix(1:6, 2, 3)"
+          ],
+          "answer": "mat <- matrix(1:6, nrow=2, ncol=3)"
+        },
+        {
+          "question": "Which function is used to read a CSV file in R?",
+          "options": [
+            "read.csv()",
+            "read.table()",
+            "import.csv()",
+            "csv.read()"
+          ],
+          "answer": "read.csv()"
+        },
+        {
+          "question": "Which of the following is used to install a package in R?",
+          "options": [
+            "install.packages()",
+            "package.install()",
+            "install()",
+            "load.packages()"
+          ],
+          "answer": "install.packages()"
+        },
+        {
+          "question": "How do you create a list in R?",
+          "options": [
+            "list <- list(1, 2, 3)",
+            "list = [1, 2, 3]",
+            "list(1, 2, 3)",
+            "list := (1, 2, 3)"
+          ],
+          "answer": "list <- list(1, 2, 3)"
+        },
+        {
+          "question": "What does the 'str()' function do in R?",
+          "options": [
+            "Displays the structure of an object",
+            "Displays the string",
+            "Creates a string",
+            "Stops the function"
+          ],
+          "answer": "Displays the structure of an object"
+        },
+        {
+          "question": "Which function is used to calculate the median in R?",
+          "options": ["median()", "mean()", "avg()", "central()"],
+          "answer": "median()"
+        },
+        {
+          "question": "How do you create a factor variable in R?",
+          "options": [
+            "factor(variable)",
+            "factor <- variable()",
+            "factor(variable, levels = c())",
+            "var.factor()"
+          ],
+          "answer": "factor(variable, levels = c())"
+        },
+        {
+          "question": "What does the 'summary()' function do in R?",
+          "options": [
+            "Provides a summary of an object",
+            "Prints the object",
+            "Provides data visualization",
+            "Shows a histogram"
+          ],
+          "answer": "Provides a summary of an object"
+        },
+        {
+          "question": "Which function is used to merge two data frames in R?",
+          "options": ["merge()", "join()", "combine()", "combine.data.frame()"],
+          "answer": "merge()"
+        },
+        {
+          "question": "Which of the following is used to plot data in R?",
+          "options": ["plot()", "graph()", "chart()", "draw()"],
+          "answer": "plot()"
+        },
+        {
+          "question": "Which function is used to get the unique values in a vector in R?",
+          "options": [
+            "unique()",
+            "distinct()",
+            "unique_values()",
+            "find_unique()"
+          ],
+          "answer": "unique()"
+        },
+        {
+          "question": "Which function in R is used to remove missing values from a dataset?",
+          "options": ["na.omit()", "remove.na()", "omit()", "clean()"],
+          "answer": "na.omit()"
+        },
+        {
+          "question": "How do you access a column of a data frame in R?",
+          "options": ["df$column", "df[column]", "df.column", "df[column()]"],
+          "answer": "df$column"
+        },
+        {
+          "question": "What is the purpose of the 'apply()' function in R?",
+          "options": [
+            "Applies a function to the rows or columns of an object",
+            "Applies a function to a list",
+            "Applies a function to a vector",
+            "Applies a function to a matrix"
+          ],
+          "answer": "Applies a function to the rows or columns of an object"
+        },
+        {
+          "question": "How do you check the structure of an object in R?",
+          "options": ["str()", "typeof()", "summary()", "structure()"],
+          "answer": "str()"
+        },
+        {
+          "question": "What does the 'subset()' function do in R?",
+          "options": [
+            "Extracts subsets of a data frame",
+            "Subsets a vector",
+            "Subsets a list",
+            "Subsets a matrix"
+          ],
+          "answer": "Extracts subsets of a data frame"
+        },
+        {
+          "question": "Which function is used to change the column names of a data frame in R?",
+          "options": [
+            "colnames()",
+            "change.names()",
+            "set.names()",
+            "rename()"
+          ],
+          "answer": "colnames()"
+        },
+        {
+          "question": "Which operator is used for element-wise operations in R?",
+          "options": ["*", "%%", "%/%", "+"],
+          "answer": "*"
+        }
+      ]
+    },
+    {
+      "name": "Html",
+      "image": "/images/HTML.png",
+      "questions": [
+        {
+          "question": "Which tag is used to define the largest heading in HTML?",
+          "options": ["<h1>", "<h6>", "<h2>", "<h3>"],
+          "answer": "<h1>"
+        },
+        {
+          "question": "What is the median of the numbers 5, 8, 12, 14, 19?",
+          "options": ["12", "14", "10", "8"],
+          "answer": "12"
+        },
+        {
+          "question": "Which tag is used to create a table in HTML?",
+          "options": ["<table>", "<tr>", "<th>", "<tbody>"],
+          "answer": "<table>"
+        },
+        {
+          "question": "What is the median of the numbers 1, 3, 7, 8, 9, 10?",
+          "options": ["7", "8", "9", "5"],
+          "answer": "7.5"
+        },
+        {
+          "question": "Which HTML tag is used to insert an image?",
+          "options": ["<img>", "<image>", "<src>", "<link>"],
+          "answer": "<img>"
+        },
+        {
+          "question": "What is the median of the numbers 4, 6, 9, 11, 15, 18?",
+          "options": ["10", "9", "11", "8"],
+          "answer": "10"
+        },
+        {
+          "question": "Which tag is used to define the metadata of an HTML document?",
+          "options": ["<meta>", "<head>", "<title>", "<body>"],
+          "answer": "<meta>"
+        },
+        {
+          "question": "What is the median of the numbers 2, 5, 8, 11, 13, 20, 25?",
+          "options": ["8", "11", "13", "7"],
+          "answer": "11"
+        },
+        {
+          "question": "What does the <link> tag do in HTML?",
+          "options": [
+            "Defines relationships between documents",
+            "Links to an external script",
+            "Defines the page title",
+            "Defines the metadata"
+          ],
+          "answer": "Defines relationships between documents"
+        },
+        {
+          "question": "What is the median of the numbers 6, 9, 12, 16, 20, 21?",
+          "options": ["10", "12", "15", "14"],
+          "answer": "14"
+        },
+        {
+          "question": "Which tag is used to create a hyperlink in HTML?",
+          "options": ["<a>", "<link>", "<href>", "<url>"],
+          "answer": "<a>"
+        },
+        {
+          "question": "What is the median of the following set: 15, 20, 25, 30, 35, 40?",
+          "options": ["25", "30", "27.5", "28"],
+          "answer": "27.5"
+        },
+        {
+          "question": "Which tag is used to define a list of items in HTML?",
+          "options": ["<ul>", "<li>", "<ol>", "<list>"],
+          "answer": "<ul>"
+        },
+        {
+          "question": "What is the median of the numbers 5, 10, 12, 14, 16, 18, 20, 22?",
+          "options": ["14", "15", "16", "13"],
+          "answer": "15"
+        },
+        {
+          "question": "Which of the following is used to create an ordered list in HTML?",
+          "options": ["<ul>", "<ol>", "<li>", "<dl>"],
+          "answer": "<ol>"
+        },
+        {
+          "question": "What is the median of these numbers: 3, 4, 5, 6, 7, 8, 9?",
+          "options": ["5", "6", "7", "8"],
+          "answer": "6"
+        },
+        {
+          "question": "Which attribute is used to specify the source of an image in HTML?",
+          "options": ["src", "href", "alt", "link"],
+          "answer": "src"
+        },
+        {
+          "question": "What is the median of the following numbers: 1, 5, 9, 13, 17?",
+          "options": ["9", "10", "11", "12"],
+          "answer": "9"
+        },
+        {
+          "question": "Which tag is used to define a paragraph in HTML?",
+          "options": ["<p>", "<h1>", "<div>", "<span>"],
+          "answer": "<p>"
+        },
+        {
+          "question": "What is the median of the following set: 2, 3, 5, 8, 12, 13?",
+          "options": ["5", "6", "7", "8"],
+          "answer": "6.5"
+        },
+        {
+          "question": "What does the <br> tag do in HTML?",
+          "options": [
+            "Breaks a line",
+            "Creates a new paragraph",
+            "Adds a space",
+            "Defines a division"
+          ],
+          "answer": "Breaks a line"
+        },
+        {
+          "question": "What is the median of the numbers 1, 2, 3, 4, 5, 6, 7, 8, 9?",
+          "options": ["4", "5", "6", "7"],
+          "answer": "5"
+        },
+        {
+          "question": "Which of the following is used to create a form in HTML?",
+          "options": ["<form>", "<input>", "<textarea>", "<fieldset>"],
+          "answer": "<form>"
+        },
+        {
+          "question": "What is the median of the following numbers: 4, 6, 8, 12, 14, 16?",
+          "options": ["9", "10", "11", "12"],
+          "answer": "10"
+        },
+        {
+          "question": "Which tag is used to create a dropdown menu in HTML?",
+          "options": ["<select>", "<input>", "<option>", "<menu>"],
+          "answer": "<select>"
+        },
+        {
+          "question": "What is the median of these numbers: 7, 9, 10, 12, 14?",
+          "options": ["9", "10", "11", "12"],
+          "answer": "10"
+        },
+        {
+          "question": "Which HTML element is used to define a division or section?",
+          "options": ["<div>", "<section>", "<article>", "<span>"],
+          "answer": "<div>"
+        },
+        {
+          "question": "Which tag is used to define an unordered list in HTML?",
+          "options": ["<ul>", "<ol>", "<li>", "<list>"],
+          "answer": "<ul>"
+        },
+        {
+          "question": "What is the median of the numbers 1, 4, 7, 10, 12?",
+          "options": ["4", "5", "7", "10"],
+          "answer": "7"
+        },
+        {
+          "question": "Which tag is used to add a comment in HTML?",
+          "options": [
+            "<!-- comment -->",
+            "// comment",
+            "/* comment */",
+            "<comment>"
+          ],
+          "answer": "<!-- comment -->"
+        }
+      ]
+    },
+    {
+      "name": "CSS",
+      "image": "/images/css.png",
+      "questions": [
+        {
+          "question": "Which property is used to change the background color in CSS?",
+          "options": ["background-color", "color", "bg-color", "background"],
+          "answer": "background-color"
+        },
+        {
+          "question": "How do you select an element with the id 'header' in CSS?",
+          "options": ["#header", ".header", "header", "*header"],
+          "answer": "#header"
+        },
+        {
+          "question": "Which property is used to change the font size in CSS?",
+          "options": ["font-size", "text-size", "font-style", "size"],
+          "answer": "font-size"
+        },
+        {
+          "question": "Which CSS property controls the space between the elements?",
+          "options": ["margin", "padding", "spacing", "border-spacing"],
+          "answer": "margin"
+        },
+        {
+          "question": "What is the default value of the position property in CSS?",
+          "options": ["static", "relative", "absolute", "fixed"],
+          "answer": "static"
+        },
+        {
+          "question": "Which property is used to change the text color in CSS?",
+          "options": ["color", "font-color", "text-color", "bg-color"],
+          "answer": "color"
+        },
+        {
+          "question": "Which property is used to add space between the content and the border of an element?",
+          "options": ["padding", "margin", "border", "space"],
+          "answer": "padding"
+        },
+        {
+          "question": "Which CSS property controls the text alignment?",
+          "options": ["text-align", "align", "text-center", "align-text"],
+          "answer": "text-align"
+        },
+        {
+          "question": "Which CSS property is used to control the visibility of an element?",
+          "options": ["visibility", "display", "opacity", "hidden"],
+          "answer": "visibility"
+        },
+        {
+          "question": "Which CSS property is used to set the width of an element?",
+          "options": ["width", "height", "size", "length"],
+          "answer": "width"
+        },
+        {
+          "question": "How do you apply a style to all <p> tags in HTML?",
+          "options": ["p { }", "all p { }", ".p { }", "#p { }"],
+          "answer": "p { }"
+        },
+        {
+          "question": "Which of the following CSS properties is used to change the font family?",
+          "options": ["font-family", "font-type", "text-family", "font"],
+          "answer": "font-family"
+        },
+        {
+          "question": "Which property is used to set the opacity of an element?",
+          "options": [
+            "opacity",
+            "visibility",
+            "background-opacity",
+            "transparency"
+          ],
+          "answer": "opacity"
+        },
+        {
+          "question": "Which property is used to set the spacing between letters in CSS?",
+          "options": [
+            "letter-spacing",
+            "word-spacing",
+            "line-spacing",
+            "spacing"
+          ],
+          "answer": "letter-spacing"
+        },
+        {
+          "question": "Which CSS property is used to set the height of an element?",
+          "options": ["height", "width", "length", "size"],
+          "answer": "height"
+        },
+        {
+          "question": "Which property is used to create rounded corners in CSS?",
+          "options": [
+            "border-radius",
+            "corner-radius",
+            "round-corner",
+            "border-round"
+          ],
+          "answer": "border-radius"
+        },
+        {
+          "question": "Which property is used to change the font weight in CSS?",
+          "options": ["font-weight", "font-style", "font-size", "text-weight"],
+          "answer": "font-weight"
+        },
+        {
+          "question": "What does the 'float' property do in CSS?",
+          "options": [
+            "Moves an element to the left or right",
+            "Sets the element's display to block",
+            "Aligns text to the left",
+            "Moves the element to the bottom"
+          ],
+          "answer": "Moves an element to the left or right"
+        },
+        {
+          "question": "How can you add a shadow effect to text in CSS?",
+          "options": [
+            "text-shadow",
+            "shadow-text",
+            "font-shadow",
+            "box-shadow"
+          ],
+          "answer": "text-shadow"
+        },
+        {
+          "question": "Which CSS property is used to change the cursor type when hovering over an element?",
+          "options": ["cursor", "hover", "mouse-pointer", "pointer"],
+          "answer": "cursor"
+        },
+        {
+          "question": "Which property is used to change the background image in CSS?",
+          "options": [
+            "background-image",
+            "bg-image",
+            "image-background",
+            "bg-src"
+          ],
+          "answer": "background-image"
+        },
+        {
+          "question": "Which CSS property is used to create a grid layout?",
+          "options": ["grid", "grid-layout", "display: grid", "layout"],
+          "answer": "display: grid"
+        },
+        {
+          "question": "Which property is used to define the space between columns in CSS grid?",
+          "options": [
+            "grid-gap",
+            "column-gap",
+            "space-between",
+            "column-spacing"
+          ],
+          "answer": "grid-gap"
+        },
+        {
+          "question": "Which CSS property is used to change the text decoration (underline, strike-through, etc.)?",
+          "options": [
+            "text-decoration",
+            "font-style",
+            "text-transform",
+            "decoration"
+          ],
+          "answer": "text-decoration"
+        },
+        {
+          "question": "How can you make an element invisible but still take up space in CSS?",
+          "options": [
+            "visibility: hidden",
+            "display: none",
+            "opacity: 0",
+            "position: absolute"
+          ],
+          "answer": "visibility: hidden"
+        },
+        {
+          "question": "What property is used to add space between the items in a flex container?",
+          "options": ["justify-content", "align-items", "margin", "padding"],
+          "answer": "justify-content"
+        },
+        {
+          "question": "Which CSS property is used to make an element appear in front of others?",
+          "options": ["z-index", "stacking-order", "layer", "positioning"],
+          "answer": "z-index"
+        },
+        {
+          "question": "Which CSS property is used to set the display style of an element?",
+          "options": ["display", "visibility", "float", "position"],
+          "answer": "display"
+        },
+        {
+          "question": "What is the default value of the display property for a <div> element?",
+          "options": ["block", "inline", "none", "inline-block"],
+          "answer": "block"
+        },
+        {
+          "question": "Which property is used to create a vertical space between elements in a flexbox container?",
+          "options": [
+            "align-items",
+            "justify-content",
+            "flex-direction",
+            "flex-wrap"
+          ],
+          "answer": "align-items"
+        }
+      ]
+    },
+    {
+      "name": "scala",
+      "image": "/images/scala.png",
+      "questions": [
+        {
+          "question": "Which of the following is the correct syntax to declare a variable in Scala?",
+          "options": [
+            "var x = 10",
+            "val x = 10",
+            "let x = 10",
+            "define x = 10"
+          ],
+          "answer": "val x = 10"
+        },
+        {
+          "question": "Which of the following is a fundamental feature of Scala?",
+          "options": [
+            "Object-oriented",
+            "Functional programming",
+            "Immutable collections",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What does the 'val' keyword represent in Scala?",
+          "options": [
+            "Mutable variable",
+            "Immutable variable",
+            "Class",
+            "Method"
+          ],
+          "answer": "Immutable variable"
+        },
+        {
+          "question": "Which operator is used for concatenation of strings in Scala?",
+          "options": ["+", "*", "&", "//"],
+          "answer": "+"
+        },
+        {
+          "question": "Which of the following is a valid type of a collection in Scala?",
+          "options": ["List", "Map", "Set", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What is the correct way to define a function in Scala?",
+          "options": [
+            "def func = { }",
+            "def func() { }",
+            "def func(): Unit = { }",
+            "function func() = { }"
+          ],
+          "answer": "def func(): Unit = { }"
+        },
+        {
+          "question": "In Scala, which keyword is used to extend a class?",
+          "options": ["extend", "implements", "extends", "inherits"],
+          "answer": "extends"
+        },
+        {
+          "question": "Which of the following is the default return type of a method in Scala if not explicitly specified?",
+          "options": ["Int", "String", "Unit", "Any"],
+          "answer": "Unit"
+        },
+        {
+          "question": "How do you declare an immutable list in Scala?",
+          "options": [
+            "val myList = List(1, 2, 3)",
+            "var myList = List(1, 2, 3)",
+            "val myList: List[Int] = List(1, 2, 3)",
+            "list myList = List(1, 2, 3)"
+          ],
+          "answer": "val myList = List(1, 2, 3)"
+        },
+        {
+          "question": "What does the 'def' keyword indicate in Scala?",
+          "options": [
+            "Define a variable",
+            "Define a function",
+            "Define a class",
+            "Define an object"
+          ],
+          "answer": "Define a function"
+        },
+        {
+          "question": "Which of the following is a valid pattern matching syntax in Scala?",
+          "options": ["match case", "case match", "match match", "case object"],
+          "answer": "match case"
+        },
+        {
+          "question": "Which of the following is the correct way to import a package in Scala?",
+          "options": [
+            "import package.name",
+            "import package:name",
+            "import 'package.name'",
+            "use package.name"
+          ],
+          "answer": "import package.name"
+        },
+        {
+          "question": "How can you create a mutable array in Scala?",
+          "options": [
+            "array = Array.mutable(1, 2, 3)",
+            "var arr = new Array",
+            "var arr = ArrayBuffer(1, 2, 3)"
+          ],
+          "answer": "var arr = ArrayBuffer(1, 2, 3)"
+        },
+        {
+          "question": "Which of the following is true for Scala's Option type?",
+          "options": [
+            "It is used to represent the presence or absence of a value",
+            "It is always null",
+            "It is a class for primitive types",
+            "It is only used for integers"
+          ],
+          "answer": "It is used to represent the presence or absence of a value"
+        },
+        {
+          "question": "How can you define a case class in Scala?",
+          "options": [
+            "case class Person(name: String, age: Int)",
+            "class case Person(name: String, age: Int)",
+            "def case class Person(name: String, age: Int)",
+            "class Person(name: String, age: Int)"
+          ],
+          "answer": "case class Person(name: String, age: Int)"
+        },
+        {
+          "question": "Which of the following is a method used to concatenate two lists in Scala?",
+          "options": ["++", "::", "+", "concat"],
+          "answer": "++"
+        },
+        {
+          "question": "Which type of collection is Scala's 'Map'?",
+          "options": ["Mutable", "Immutable", "Both", "None"],
+          "answer": "Both"
+        },
+        {
+          "question": "Which keyword is used for creating a singleton object in Scala?",
+          "options": ["object", "singleton", "class", "static"],
+          "answer": "object"
+        },
+        {
+          "question": "Which method is used to convert a string to an integer in Scala?",
+          "options": ["toInt", "parseInt", "convertToInt", "intValue"],
+          "answer": "toInt"
+        },
+        {
+          "question": "What is the primary feature of Scala's for-comprehension?",
+          "options": [
+            "It is used for function definitions",
+            "It is used for data processing and transformations",
+            "It defines collections",
+            "It initializes variables"
+          ],
+          "answer": "It is used for data processing and transformations"
+        },
+        {
+          "question": "What is the output of the following code in Scala: 'val x = 10; val y = 20; val result = x + y'?",
+          "options": ["10", "20", "30", "None of the above"],
+          "answer": "30"
+        },
+        {
+          "question": "What does the 'try' block do in Scala?",
+          "options": [
+            "Defines a method",
+            "Handles exceptions",
+            "Declares a variable",
+            "Imports a package"
+          ],
+          "answer": "Handles exceptions"
+        },
+        {
+          "question": "How can you add an element to a mutable set in Scala?",
+          "options": [
+            "set.add(element)",
+            "set.push(element)",
+            "set.insert(element)",
+            "set.insertAt(element)"
+          ],
+          "answer": "set.add(element)"
+        },
+        {
+          "question": "What is the purpose of the 'yield' keyword in Scala?",
+          "options": [
+            "To return a value from a method",
+            "To create a new variable",
+            "To create new elements in a for loop",
+            "To add two values"
+          ],
+          "answer": "To create new elements in a for loop"
+        },
+        {
+          "question": "What is a higher-order function in Scala?",
+          "options": [
+            "A function that takes other functions as arguments",
+            "A function that operates on collections",
+            "A function that returns multiple values",
+            "A function used to divide numbers"
+          ],
+          "answer": "A function that takes other functions as arguments"
+        },
+        {
+          "question": "Which of the following is true about Scala's trait?",
+          "options": [
+            "A trait can contain both abstract and concrete methods",
+            "A trait is the same as a class",
+            "A trait can only have abstract methods",
+            "Traits are only used in object-oriented programming"
+          ],
+          "answer": "A trait can contain both abstract and concrete methods"
+        },
+        {
+          "question": "What does the 'Unit' type represent in Scala?",
+          "options": [
+            "It represents a method that returns nothing",
+            "It represents an integer",
+            "It is a collection type",
+            "It represents a boolean value"
+          ],
+          "answer": "It represents a method that returns nothing"
+        },
+        {
+          "question": "How do you define an immutable map in Scala?",
+          "options": [
+            "val map = Map()",
+            "var map = Map()",
+            "map = new Map()",
+            "let map = Map()"
+          ],
+          "answer": "val map = Map()"
+        },
+        {
+          "question": "Which of the following is an immutable collection in Scala?",
+          "options": ["List", "Vector", "Map", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "Which method can be used to get the first element of a list in Scala?",
+          "options": ["head", "first", "get", "top"],
+          "answer": "head"
+        },
+        {
+          "question": "How can you make a class in Scala a singleton?",
+          "options": [
+            "Using the 'object' keyword",
+            "Using the 'class' keyword",
+            "Using the 'singleton' keyword",
+            "Using the 'static' keyword"
+          ],
+          "answer": "Using the 'object' keyword"
+        }
+      ]
+    }
+  ]
+}
